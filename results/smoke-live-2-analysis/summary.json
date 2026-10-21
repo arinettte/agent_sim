@@ -1,0 +1,80 @@
+{
+  "config_id": "f6c98261389246df",
+  "bootstrap": 2000,
+  "conditions": {
+    "no_memory": {
+      "n": 1,
+      "metrics": {
+        "agreement_rate": 0.0,
+        "rounds_to_agreement": null,
+        "share_A": null,
+        "share_B": null,
+        "share_C": null,
+        "gini": null,
+        "invalid_response_rate": 0.6842105263157895,
+        "initial_invalid_rate": 0.7272727272727273,
+        "final_invalid_action_rate": 0.45454545454545453
+      },
+      "ci95": {
+        "agreement_rate": [
+          0.0,
+          0.0
+        ],
+        "rounds_to_agreement": null,
+        "share_A": null,
+        "share_B": null,
+        "share_C": null,
+        "gini": null,
+        "invalid_response_rate": [
+          0.6842105263157895,
+          0.6842105263157895
+        ],
+        "initial_invalid_rate": [
+          0.7272727272727273,
+          0.7272727272727273
+        ],
+        "final_invalid_action_rate": [
+          0.45454545454545453,
+          0.45454545454545453
+        ]
+      }
+    },
+    "memory": {
+      "n": 1,
+      "metrics": {
+        "agreement_rate": 0.0,
+        "rounds_to_agreement": null,
+        "share_A": null,
+        "share_B": null,
+        "share_C": null,
+        "gini": null,
+        "invalid_response_rate": 0.7777777777777778,
+        "initial_invalid_rate": 0.6875,
+        "final_invalid_action_rate": 0.625
+      },
+      "ci95": {
+        "agreement_rate": [
+          0.0,
+          0.0
+        ],
+        "rounds_to_agreement": null,
+        "share_A": null,
+        "share_B": null,
+        "share_C": null,
+        "gini": null,
+        "invalid_response_rate": [
+          0.7777777777777778,
+          0.7777777777777778
+        ],
+        "initial_invalid_rate": [
+          0.6875,
+          0.6875
+        ],
+        "final_invalid_action_rate": [
+          0.625,
+          0.625
+        ]
+      }
+    }
+  }
+}

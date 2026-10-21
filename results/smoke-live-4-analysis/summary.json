@@ -1,0 +1,724 @@
+{
+  "config_id": "962c1423d01e83cd",
+  "bootstrap": 2000,
+  "conditions": {
+    "no_memory": {
+      "n": 1,
+      "metrics": {
+        "accept_rate": 0.125,
+        "almost_agreement_count": 2,
+        "agreement_rate": 0.0,
+        "rounds_to_agreement": null,
+        "share_A": null,
+        "share_B": null,
+        "share_C": null,
+        "gini": null,
+        "invalid_response_rate": 0.0,
+        "initial_invalid_rate": 0.0,
+        "final_invalid_action_rate": 0.0
+      },
+      "ci95": {
+        "accept_rate": [
+          0.125,
+          0.125
+        ],
+        "almost_agreement_count": [
+          2,
+          2
+        ],
+        "agreement_rate": [
+          0.0,
+          0.0
+        ],
+        "rounds_to_agreement": null,
+        "share_A": null,
+        "share_B": null,
+        "share_C": null,
+        "gini": null,
+        "invalid_response_rate": [
+          0.0,
+          0.0
+        ],
+        "initial_invalid_rate": [
+          0.0,
+          0.0
+        ],
+        "final_invalid_action_rate": [
+          0.0,
+          0.0
+        ]
+      },
+      "diagnostics": {
+        "by_round": {
+          "1": {
+            "runs_reached": 1,
+            "valid_proposals": 1,
+            "accept_count": 0,
+            "vote_count": 2,
+            "accept_rate": 0.0,
+            "accept_rate_including_proposer": 0.3333333333333333,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.66,
+            "proposer_share": 99.0
+          },
+          "2": {
+            "runs_reached": 1,
+            "valid_proposals": 1,
+            "accept_count": 0,
+            "vote_count": 2,
+            "accept_rate": 0.0,
+            "accept_rate_including_proposer": 0.3333333333333333,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.4,
+            "proposer_share": 60.0
+          },
+          "3": {
+            "runs_reached": 1,
+            "valid_proposals": 1,
+            "accept_count": 1,
+            "vote_count": 2,
+            "accept_rate": 0.5,
+            "accept_rate_including_proposer": 0.6666666666666666,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.006666666666666667,
+            "proposer_share": 34.0
+          },
+          "4": {
+            "runs_reached": 1,
+            "valid_proposals": 1,
+            "accept_count": 0,
+            "vote_count": 2,
+            "accept_rate": 0.0,
+            "accept_rate_including_proposer": 0.3333333333333333,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.5666666666666667,
+            "proposer_share": 90.0
+          },
+          "5": {
+            "runs_reached": 1,
+            "valid_proposals": 1,
+            "accept_count": 0,
+            "vote_count": 2,
+            "accept_rate": 0.0,
+            "accept_rate_including_proposer": 0.3333333333333333,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.4,
+            "proposer_share": 40.0
+          },
+          "6": {
+            "runs_reached": 1,
+            "valid_proposals": 1,
+            "accept_count": 1,
+            "vote_count": 2,
+            "accept_rate": 0.5,
+            "accept_rate_including_proposer": 0.6666666666666666,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.006666666666666667,
+            "proposer_share": 34.0
+          },
+          "7": {
+            "runs_reached": 1,
+            "valid_proposals": 1,
+            "accept_count": 0,
+            "vote_count": 2,
+            "accept_rate": 0.0,
+            "accept_rate_including_proposer": 0.3333333333333333,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.5666666666666667,
+            "proposer_share": 90.0
+          },
+          "8": {
+            "runs_reached": 1,
+            "valid_proposals": 1,
+            "accept_count": 0,
+            "vote_count": 2,
+            "accept_rate": 0.0,
+            "accept_rate_including_proposer": 0.3333333333333333,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.4,
+            "proposer_share": 40.0
+          }
+        },
+        "proposals": [
+          {
+            "index": 0,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 0,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 60,
+              "C": 40
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 60,
+            "gini": 0.4
+          },
+          {
+            "index": 0,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 0,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 0,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 0,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 0,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 0,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          }
+        ],
+        "blockers": {
+          "A": {
+            "rejects": 3,
+            "votes": 5,
+            "sole_rejects": 0,
+            "reject_rate": 0.6
+          },
+          "B": {
+            "rejects": 5,
+            "votes": 5,
+            "sole_rejects": 2,
+            "reject_rate": 1.0
+          },
+          "C": {
+            "rejects": 6,
+            "votes": 6,
+            "sole_rejects": 0,
+            "reject_rate": 1.0
+          }
+        },
+        "almost_agreements_by_run": [
+          {
+            "index": 0,
+            "count": 2
+          }
+        ],
+        "concessions": {
+          "A": {
+            "runs": [
+              {
+                "index": 0,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 90,
+                    "concession_from_previous": 9
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 9
+              }
+            ],
+            "transitions": 2,
+            "mean_step_concession": 4.5,
+            "mean_net_concession": 9.0
+          },
+          "B": {
+            "runs": [
+              {
+                "index": 0,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 60,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 20
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 20
+              }
+            ],
+            "transitions": 2,
+            "mean_step_concession": 10.0,
+            "mean_net_concession": 20.0
+          },
+          "C": {
+            "runs": [
+              {
+                "index": 0,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              }
+            ],
+            "transitions": 1,
+            "mean_step_concession": 0.0,
+            "mean_net_concession": 0.0
+          }
+        }
+      }
+    },
+    "memory": {
+      "n": 1,
+      "metrics": {
+        "accept_rate": 0.3333333333333333,
+        "almost_agreement_count": 4,
+        "agreement_rate": 0.0,
+        "rounds_to_agreement": null,
+        "share_A": null,
+        "share_B": null,
+        "share_C": null,
+        "gini": null,
+        "invalid_response_rate": 0.18181818181818182,
+        "initial_invalid_rate": 0.1,
+        "final_invalid_action_rate": 0.1
+      },
+      "ci95": {
+        "accept_rate": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "almost_agreement_count": [
+          4,
+          4
+        ],
+        "agreement_rate": [
+          0.0,
+          0.0
+        ],
+        "rounds_to_agreement": null,
+        "share_A": null,
+        "share_B": null,
+        "share_C": null,
+        "gini": null,
+        "invalid_response_rate": [
+          0.18181818181818182,
+          0.18181818181818182
+        ],
+        "initial_invalid_rate": [
+          0.1,
+          0.1
+        ],
+        "final_invalid_action_rate": [
+          0.1,
+          0.1
+        ]
+      },
+      "diagnostics": {
+        "by_round": {
+          "1": {
+            "runs_reached": 1,
+            "valid_proposals": 1,
+            "accept_count": 0,
+            "vote_count": 2,
+            "accept_rate": 0.0,
+            "accept_rate_including_proposer": 0.3333333333333333,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.66,
+            "proposer_share": 99.0
+          },
+          "2": {
+            "runs_reached": 1,
+            "valid_proposals": 1,
+            "accept_count": 1,
+            "vote_count": 2,
+            "accept_rate": 0.5,
+            "accept_rate_including_proposer": 0.6666666666666666,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.3333333333333333,
+            "proposer_share": 50.0
+          },
+          "3": {
+            "runs_reached": 1,
+            "valid_proposals": 1,
+            "accept_count": 1,
+            "vote_count": 2,
+            "accept_rate": 0.5,
+            "accept_rate_including_proposer": 0.6666666666666666,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.006666666666666667,
+            "proposer_share": 33.0
+          },
+          "4": {
+            "runs_reached": 1,
+            "valid_proposals": 1,
+            "accept_count": 1,
+            "vote_count": 2,
+            "accept_rate": 0.5,
+            "accept_rate_including_proposer": 0.6666666666666666,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.34,
+            "proposer_share": 51.0
+          },
+          "5": {
+            "runs_reached": 1,
+            "valid_proposals": 0,
+            "accept_count": 0,
+            "vote_count": 0,
+            "accept_rate": null,
+            "accept_rate_including_proposer": null,
+            "invalid_reject_count": 0,
+            "proposal_gini": null,
+            "proposer_share": null
+          },
+          "6": {
+            "runs_reached": 1,
+            "valid_proposals": 1,
+            "accept_count": 0,
+            "vote_count": 2,
+            "accept_rate": 0.0,
+            "accept_rate_including_proposer": 0.3333333333333333,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.006666666666666667,
+            "proposer_share": 33.0
+          },
+          "7": {
+            "runs_reached": 1,
+            "valid_proposals": 1,
+            "accept_count": 1,
+            "vote_count": 2,
+            "accept_rate": 0.5,
+            "accept_rate_including_proposer": 0.6666666666666666,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.34,
+            "proposer_share": 51.0
+          },
+          "8": {
+            "runs_reached": 1,
+            "valid_proposals": 0,
+            "accept_count": 0,
+            "vote_count": 0,
+            "accept_rate": null,
+            "accept_rate_including_proposer": null,
+            "invalid_reject_count": 0,
+            "proposal_gini": null,
+            "proposer_share": null
+          }
+        },
+        "proposals": [
+          {
+            "index": 0,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 0,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 50,
+              "C": 50
+            },
+            "rejects": [
+              "A"
+            ],
+            "sole_reject": true,
+            "proposer_share": 50,
+            "gini": 0.3333333333333333
+          },
+          {
+            "index": 0,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 34,
+              "B": 33,
+              "C": 33
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 33,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 0,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 51,
+              "B": 49,
+              "C": 0
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 51,
+            "gini": 0.34
+          },
+          {
+            "index": 0,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 34,
+              "B": 33,
+              "C": 33
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 33,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 0,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 51,
+              "B": 49,
+              "C": 0
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 51,
+            "gini": 0.34
+          }
+        ],
+        "blockers": {
+          "A": {
+            "rejects": 2,
+            "votes": 3,
+            "sole_rejects": 1,
+            "reject_rate": 0.6666666666666666
+          },
+          "B": {
+            "rejects": 5,
+            "votes": 5,
+            "sole_rejects": 3,
+            "reject_rate": 1.0
+          },
+          "C": {
+            "rejects": 1,
+            "votes": 4,
+            "sole_rejects": 0,
+            "reject_rate": 0.25
+          }
+        },
+        "almost_agreements_by_run": [
+          {
+            "index": 0,
+            "count": 4
+          }
+        ],
+        "concessions": {
+          "A": {
+            "runs": [
+              {
+                "index": 0,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 51,
+                    "concession_from_previous": 48
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 51,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 48
+              }
+            ],
+            "transitions": 2,
+            "mean_step_concession": 24.0,
+            "mean_net_concession": 48.0
+          },
+          "B": {
+            "runs": [
+              {
+                "index": 0,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 50,
+                    "concession_from_previous": null
+                  }
+                ],
+                "net_concession": null
+              }
+            ],
+            "transitions": 0,
+            "mean_step_concession": null,
+            "mean_net_concession": null
+          },
+          "C": {
+            "runs": [
+              {
+                "index": 0,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 33,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 33,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              }
+            ],
+            "transitions": 1,
+            "mean_step_concession": 0.0,
+            "mean_net_concession": 0.0
+          }
+        }
+      }
+    }
+  }
+}
