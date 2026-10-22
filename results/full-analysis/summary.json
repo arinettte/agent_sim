@@ -1,0 +1,7386 @@
+{
+  "config_id": "962c1423d01e83cd",
+  "bootstrap": 2000,
+  "conditions": {
+    "no_memory": {
+      "n": 20,
+      "metrics": {
+        "accept_rate": 0.10625,
+        "almost_agreement_count": 34,
+        "agreement_rate": 0.0,
+        "rounds_to_agreement": null,
+        "share_A": null,
+        "share_B": null,
+        "share_C": null,
+        "gini": null,
+        "invalid_response_rate": 0.0,
+        "initial_invalid_rate": 0.0,
+        "final_invalid_action_rate": 0.0
+      },
+      "ci95": {
+        "accept_rate": [
+          0.071875,
+          0.140625
+        ],
+        "almost_agreement_count": [
+          23,
+          45
+        ],
+        "agreement_rate": [
+          0.0,
+          0.0
+        ],
+        "rounds_to_agreement": null,
+        "share_A": null,
+        "share_B": null,
+        "share_C": null,
+        "gini": null,
+        "invalid_response_rate": [
+          0.0,
+          0.0
+        ],
+        "initial_invalid_rate": [
+          0.0,
+          0.0
+        ],
+        "final_invalid_action_rate": [
+          0.0,
+          0.0
+        ]
+      },
+      "diagnostics": {
+        "by_round": {
+          "1": {
+            "runs_reached": 20,
+            "valid_proposals": 20,
+            "accept_count": 0,
+            "vote_count": 40,
+            "accept_rate": 0.0,
+            "accept_rate_including_proposer": 0.3333333333333333,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.632,
+            "proposer_share": 96.3
+          },
+          "2": {
+            "runs_reached": 20,
+            "valid_proposals": 20,
+            "accept_count": 4,
+            "vote_count": 40,
+            "accept_rate": 0.1,
+            "accept_rate_including_proposer": 0.4,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.3930000000000001,
+            "proposer_share": 49.05
+          },
+          "3": {
+            "runs_reached": 20,
+            "valid_proposals": 20,
+            "accept_count": 12,
+            "vote_count": 40,
+            "accept_rate": 0.3,
+            "accept_rate_including_proposer": 0.5333333333333333,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.006666666666666666,
+            "proposer_share": 34.0
+          },
+          "4": {
+            "runs_reached": 20,
+            "valid_proposals": 20,
+            "accept_count": 0,
+            "vote_count": 40,
+            "accept_rate": 0.0,
+            "accept_rate_including_proposer": 0.3333333333333333,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.5499999999999999,
+            "proposer_share": 88.25
+          },
+          "5": {
+            "runs_reached": 20,
+            "valid_proposals": 20,
+            "accept_count": 0,
+            "vote_count": 40,
+            "accept_rate": 0.0,
+            "accept_rate_including_proposer": 0.3333333333333333,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.3963333333333335,
+            "proposer_share": 50.55
+          },
+          "6": {
+            "runs_reached": 20,
+            "valid_proposals": 20,
+            "accept_count": 12,
+            "vote_count": 40,
+            "accept_rate": 0.3,
+            "accept_rate_including_proposer": 0.5333333333333333,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.006666666666666666,
+            "proposer_share": 34.0
+          },
+          "7": {
+            "runs_reached": 20,
+            "valid_proposals": 20,
+            "accept_count": 1,
+            "vote_count": 40,
+            "accept_rate": 0.025,
+            "accept_rate_including_proposer": 0.35,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.5713333333333332,
+            "proposer_share": 90.45
+          },
+          "8": {
+            "runs_reached": 20,
+            "valid_proposals": 20,
+            "accept_count": 5,
+            "vote_count": 40,
+            "accept_rate": 0.125,
+            "accept_rate_including_proposer": 0.4166666666666667,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.4000000000000001,
+            "proposer_share": 40.0
+          }
+        },
+        "proposals": [
+          {
+            "index": 0,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 0,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 60,
+              "C": 40
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 60,
+            "gini": 0.4
+          },
+          {
+            "index": 0,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 0,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 0,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 0,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 0,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 0,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 1,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 1,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 60,
+              "C": 40
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 60,
+            "gini": 0.4
+          },
+          {
+            "index": 1,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 1,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 1,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 1,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 1,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 1,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 2,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 2,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 41,
+              "C": 59
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 41,
+            "gini": 0.3933333333333333
+          },
+          {
+            "index": 2,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 2,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 85,
+              "B": 10,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 85,
+            "gini": 0.5333333333333333
+          },
+          {
+            "index": 2,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 50,
+              "C": 50
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 50,
+            "gini": 0.3333333333333333
+          },
+          {
+            "index": 2,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 2,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 2,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "C"
+            ],
+            "sole_reject": true,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 3,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 3,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 60,
+              "C": 40
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 60,
+            "gini": 0.4
+          },
+          {
+            "index": 3,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 3,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 3,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 60,
+              "C": 40
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 60,
+            "gini": 0.4
+          },
+          {
+            "index": 3,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 3,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 3,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "C"
+            ],
+            "sole_reject": true,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 4,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 4,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 41,
+              "C": 59
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 41,
+            "gini": 0.3933333333333333
+          },
+          {
+            "index": 4,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 4,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 4,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 60,
+              "C": 40
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 60,
+            "gini": 0.4
+          },
+          {
+            "index": 4,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 4,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 4,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A"
+            ],
+            "sole_reject": true,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 5,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 5,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 60,
+              "C": 40
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 60,
+            "gini": 0.4
+          },
+          {
+            "index": 5,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 5,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 5,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 5,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 5,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 5,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 6,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 6,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 41,
+              "C": 59
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 41,
+            "gini": 0.3933333333333333
+          },
+          {
+            "index": 6,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 6,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 6,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 6,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 6,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 6,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "C"
+            ],
+            "sole_reject": true,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 7,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 7,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 41,
+              "C": 59
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 41,
+            "gini": 0.3933333333333333
+          },
+          {
+            "index": 7,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 7,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 7,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 7,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 7,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 7,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 8,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 8,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 60,
+              "C": 40
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 60,
+            "gini": 0.4
+          },
+          {
+            "index": 8,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 8,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 8,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 8,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 8,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 8,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 9,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 9,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 41,
+              "C": 59
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 41,
+            "gini": 0.3933333333333333
+          },
+          {
+            "index": 9,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 9,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 80,
+              "B": 10,
+              "C": 10
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 80,
+            "gini": 0.4666666666666667
+          },
+          {
+            "index": 9,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 60,
+              "C": 40
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 60,
+            "gini": 0.4
+          },
+          {
+            "index": 9,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 9,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 9,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 10,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 10,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 41,
+              "C": 59
+            },
+            "rejects": [
+              "A"
+            ],
+            "sole_reject": true,
+            "proposer_share": 41,
+            "gini": 0.3933333333333333
+          },
+          {
+            "index": 10,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 10,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 10,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 60,
+              "C": 40
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 60,
+            "gini": 0.4
+          },
+          {
+            "index": 10,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 10,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 10,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 11,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 11,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 41,
+              "C": 59
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 41,
+            "gini": 0.3933333333333333
+          },
+          {
+            "index": 11,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 11,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 80,
+              "B": 10,
+              "C": 10
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 80,
+            "gini": 0.4666666666666667
+          },
+          {
+            "index": 11,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 60,
+              "C": 40
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 60,
+            "gini": 0.4
+          },
+          {
+            "index": 11,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 11,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 11,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 12,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 12,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 41,
+              "C": 59
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 41,
+            "gini": 0.3933333333333333
+          },
+          {
+            "index": 12,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 12,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 12,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 60,
+              "C": 40
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 60,
+            "gini": 0.4
+          },
+          {
+            "index": 12,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 12,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 12,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 13,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 13,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 60,
+              "C": 40
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 60,
+            "gini": 0.4
+          },
+          {
+            "index": 13,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 13,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 13,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 13,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 13,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 13,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 14,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 14,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 41,
+              "C": 59
+            },
+            "rejects": [
+              "A"
+            ],
+            "sole_reject": true,
+            "proposer_share": 41,
+            "gini": 0.3933333333333333
+          },
+          {
+            "index": 14,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 14,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 14,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 60,
+              "C": 40
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 60,
+            "gini": 0.4
+          },
+          {
+            "index": 14,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 14,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 14,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 15,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 15,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 60,
+              "C": 40
+            },
+            "rejects": [
+              "C"
+            ],
+            "sole_reject": true,
+            "proposer_share": 60,
+            "gini": 0.4
+          },
+          {
+            "index": 15,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 15,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 15,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 15,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 15,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 15,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 16,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 16,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 41,
+              "C": 59
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 41,
+            "gini": 0.3933333333333333
+          },
+          {
+            "index": 16,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 16,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 16,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 60,
+              "C": 40
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 60,
+            "gini": 0.4
+          },
+          {
+            "index": 16,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 16,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 16,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 17,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 17,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 41,
+              "C": 59
+            },
+            "rejects": [
+              "A"
+            ],
+            "sole_reject": true,
+            "proposer_share": 41,
+            "gini": 0.3933333333333333
+          },
+          {
+            "index": 17,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 17,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 17,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 60,
+              "C": 40
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 60,
+            "gini": 0.4
+          },
+          {
+            "index": 17,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 17,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 17,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 18,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 18,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 60,
+              "C": 40
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 60,
+            "gini": 0.4
+          },
+          {
+            "index": 18,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 18,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 18,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 60,
+              "C": 40
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 60,
+            "gini": 0.4
+          },
+          {
+            "index": 18,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 18,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 18,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "C"
+            ],
+            "sole_reject": true,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 19,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 19,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 50,
+              "C": 50
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 50,
+            "gini": 0.3333333333333333
+          },
+          {
+            "index": 19,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 19,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 80,
+              "B": 10,
+              "C": 10
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 80,
+            "gini": 0.4666666666666667
+          },
+          {
+            "index": 19,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 41,
+              "C": 59
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 41,
+            "gini": 0.3933333333333333
+          },
+          {
+            "index": 19,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 19,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 19,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          }
+        ],
+        "blockers": {
+          "A": {
+            "rejects": 71,
+            "votes": 100,
+            "sole_rejects": 4,
+            "reject_rate": 0.71
+          },
+          "B": {
+            "rejects": 100,
+            "votes": 100,
+            "sole_rejects": 25,
+            "reject_rate": 1.0
+          },
+          "C": {
+            "rejects": 115,
+            "votes": 120,
+            "sole_rejects": 5,
+            "reject_rate": 0.9583333333333334
+          }
+        },
+        "almost_agreements_by_run": [
+          {
+            "index": 0,
+            "count": 2
+          },
+          {
+            "index": 1,
+            "count": 0
+          },
+          {
+            "index": 2,
+            "count": 4
+          },
+          {
+            "index": 3,
+            "count": 2
+          },
+          {
+            "index": 4,
+            "count": 3
+          },
+          {
+            "index": 5,
+            "count": 2
+          },
+          {
+            "index": 6,
+            "count": 1
+          },
+          {
+            "index": 7,
+            "count": 0
+          },
+          {
+            "index": 8,
+            "count": 2
+          },
+          {
+            "index": 9,
+            "count": 0
+          },
+          {
+            "index": 10,
+            "count": 3
+          },
+          {
+            "index": 11,
+            "count": 2
+          },
+          {
+            "index": 12,
+            "count": 0
+          },
+          {
+            "index": 13,
+            "count": 0
+          },
+          {
+            "index": 14,
+            "count": 3
+          },
+          {
+            "index": 15,
+            "count": 3
+          },
+          {
+            "index": 16,
+            "count": 1
+          },
+          {
+            "index": 17,
+            "count": 3
+          },
+          {
+            "index": 18,
+            "count": 1
+          },
+          {
+            "index": 19,
+            "count": 2
+          }
+        ],
+        "concessions": {
+          "A": {
+            "runs": [
+              {
+                "index": 0,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 90,
+                    "concession_from_previous": 9
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 9
+              },
+              {
+                "index": 1,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 90,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 2,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 90,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 85,
+                    "concession_from_previous": 5
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 99,
+                    "concession_from_previous": -14
+                  }
+                ],
+                "net_concession": -9
+              },
+              {
+                "index": 3,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 90,
+                    "concession_from_previous": 9
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 9
+              },
+              {
+                "index": 4,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 90,
+                    "concession_from_previous": 9
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 9
+              },
+              {
+                "index": 5,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 90,
+                    "concession_from_previous": 9
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 9
+              },
+              {
+                "index": 6,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 90,
+                    "concession_from_previous": 9
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 9
+              },
+              {
+                "index": 7,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 90,
+                    "concession_from_previous": 9
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 9
+              },
+              {
+                "index": 8,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 90,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 9,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 80,
+                    "concession_from_previous": 19
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": -10
+                  }
+                ],
+                "net_concession": 9
+              },
+              {
+                "index": 10,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 90,
+                    "concession_from_previous": 9
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 9
+              },
+              {
+                "index": 11,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 90,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 80,
+                    "concession_from_previous": 10
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": -10
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 12,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 90,
+                    "concession_from_previous": 9
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 9
+              },
+              {
+                "index": 13,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 90,
+                    "concession_from_previous": 9
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 9
+              },
+              {
+                "index": 14,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 90,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 15,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 90,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 16,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 90,
+                    "concession_from_previous": 9
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 9
+              },
+              {
+                "index": 17,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 90,
+                    "concession_from_previous": 9
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 9
+              },
+              {
+                "index": 18,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 90,
+                    "concession_from_previous": 9
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 9
+              },
+              {
+                "index": 19,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 80,
+                    "concession_from_previous": 19
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 90,
+                    "concession_from_previous": -10
+                  }
+                ],
+                "net_concession": 9
+              }
+            ],
+            "transitions": 40,
+            "mean_step_concession": 2.925,
+            "mean_net_concession": 5.85
+          },
+          "B": {
+            "runs": [
+              {
+                "index": 0,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 60,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 20
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 20
+              },
+              {
+                "index": 1,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 60,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 20
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 20
+              },
+              {
+                "index": 2,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 41,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 50,
+                    "concession_from_previous": -9
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 10
+                  }
+                ],
+                "net_concession": 1
+              },
+              {
+                "index": 3,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 60,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 60,
+                    "concession_from_previous": 0
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 20
+                  }
+                ],
+                "net_concession": 20
+              },
+              {
+                "index": 4,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 41,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 60,
+                    "concession_from_previous": -19
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 20
+                  }
+                ],
+                "net_concession": 1
+              },
+              {
+                "index": 5,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 60,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 20
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 20
+              },
+              {
+                "index": 6,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 41,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 1
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 1
+              },
+              {
+                "index": 7,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 41,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 1
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 1
+              },
+              {
+                "index": 8,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 60,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 20
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 20
+              },
+              {
+                "index": 9,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 41,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 60,
+                    "concession_from_previous": -19
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 20
+                  }
+                ],
+                "net_concession": 1
+              },
+              {
+                "index": 10,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 41,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 60,
+                    "concession_from_previous": -19
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 20
+                  }
+                ],
+                "net_concession": 1
+              },
+              {
+                "index": 11,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 41,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 60,
+                    "concession_from_previous": -19
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 20
+                  }
+                ],
+                "net_concession": 1
+              },
+              {
+                "index": 12,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 41,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 60,
+                    "concession_from_previous": -19
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 20
+                  }
+                ],
+                "net_concession": 1
+              },
+              {
+                "index": 13,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 60,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 20
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 20
+              },
+              {
+                "index": 14,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 41,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 60,
+                    "concession_from_previous": -19
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 20
+                  }
+                ],
+                "net_concession": 1
+              },
+              {
+                "index": 15,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 60,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 20
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 20
+              },
+              {
+                "index": 16,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 41,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 60,
+                    "concession_from_previous": -19
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 20
+                  }
+                ],
+                "net_concession": 1
+              },
+              {
+                "index": 17,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 41,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 60,
+                    "concession_from_previous": -19
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 20
+                  }
+                ],
+                "net_concession": 1
+              },
+              {
+                "index": 18,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 60,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 60,
+                    "concession_from_previous": 0
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 20
+                  }
+                ],
+                "net_concession": 20
+              },
+              {
+                "index": 19,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 50,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 41,
+                    "concession_from_previous": 9
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 1
+                  }
+                ],
+                "net_concession": 10
+              }
+            ],
+            "transitions": 40,
+            "mean_step_concession": 4.525,
+            "mean_net_concession": 9.05
+          },
+          "C": {
+            "runs": [
+              {
+                "index": 0,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 1,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 2,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 3,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 4,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 5,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 6,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 7,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 8,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 9,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 10,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 11,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 12,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 13,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 14,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 15,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 16,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 17,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 18,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 19,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              }
+            ],
+            "transitions": 20,
+            "mean_step_concession": 0.0,
+            "mean_net_concession": 0.0
+          }
+        }
+      }
+    },
+    "memory": {
+      "n": 20,
+      "metrics": {
+        "accept_rate": 0.2804878048780488,
+        "almost_agreement_count": 55,
+        "agreement_rate": 0.35,
+        "rounds_to_agreement": 4.428571428571429,
+        "share_A": 13.0,
+        "share_B": 54.142857142857146,
+        "share_C": 32.857142857142854,
+        "gini": 0.3628571428571428,
+        "invalid_response_rate": 0.06345177664974619,
+        "initial_invalid_rate": 0.03412073490813648,
+        "final_invalid_action_rate": 0.031496062992125984
+      },
+      "ci95": {
+        "accept_rate": [
+          0.2246376811594203,
+          0.33760683760683763
+        ],
+        "almost_agreement_count": [
+          39,
+          71
+        ],
+        "agreement_rate": [
+          0.15,
+          0.55
+        ],
+        "rounds_to_agreement": [
+          2.5,
+          6.5
+        ],
+        "share_A": [
+          0.0,
+          30.6
+        ],
+        "share_B": [
+          43.333333333333336,
+          72.5
+        ],
+        "share_C": [
+          12.5,
+          51.25
+        ],
+        "gini": [
+          0.25,
+          0.48888888888888893
+        ],
+        "invalid_response_rate": [
+          0.040345821325648415,
+          0.08666666666666667
+        ],
+        "initial_invalid_rate": [
+          0.021052631578947368,
+          0.04788732394366197
+        ],
+        "final_invalid_action_rate": [
+          0.019801980198019802,
+          0.043478260869565216
+        ]
+      },
+      "diagnostics": {
+        "by_round": {
+          "1": {
+            "runs_reached": 20,
+            "valid_proposals": 20,
+            "accept_count": 0,
+            "vote_count": 40,
+            "accept_rate": 0.0,
+            "accept_rate_including_proposer": 0.3333333333333333,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.6460000000000001,
+            "proposer_share": 97.65
+          },
+          "2": {
+            "runs_reached": 20,
+            "valid_proposals": 20,
+            "accept_count": 14,
+            "vote_count": 40,
+            "accept_rate": 0.35,
+            "accept_rate_including_proposer": 0.5666666666666667,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.27,
+            "proposer_share": 44.5
+          },
+          "3": {
+            "runs_reached": 17,
+            "valid_proposals": 17,
+            "accept_count": 10,
+            "vote_count": 34,
+            "accept_rate": 0.29411764705882354,
+            "accept_rate_including_proposer": 0.5294117647058824,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.006666666666666667,
+            "proposer_share": 33.529411764705884
+          },
+          "4": {
+            "runs_reached": 17,
+            "valid_proposals": 17,
+            "accept_count": 11,
+            "vote_count": 34,
+            "accept_rate": 0.3235294117647059,
+            "accept_rate_including_proposer": 0.5490196078431373,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.4870588235294117,
+            "proposer_share": 74.3529411764706
+          },
+          "5": {
+            "runs_reached": 16,
+            "valid_proposals": 14,
+            "accept_count": 11,
+            "vote_count": 28,
+            "accept_rate": 0.39285714285714285,
+            "accept_rate_including_proposer": 0.5952380952380952,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.2623809523809523,
+            "proposer_share": 40.642857142857146
+          },
+          "6": {
+            "runs_reached": 15,
+            "valid_proposals": 15,
+            "accept_count": 5,
+            "vote_count": 30,
+            "accept_rate": 0.16666666666666666,
+            "accept_rate_including_proposer": 0.4444444444444444,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.006666666666666667,
+            "proposer_share": 33.53333333333333
+          },
+          "7": {
+            "runs_reached": 15,
+            "valid_proposals": 15,
+            "accept_count": 12,
+            "vote_count": 30,
+            "accept_rate": 0.4,
+            "accept_rate_including_proposer": 0.6,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.5075555555555555,
+            "proposer_share": 78.4
+          },
+          "8": {
+            "runs_reached": 15,
+            "valid_proposals": 5,
+            "accept_count": 6,
+            "vote_count": 10,
+            "accept_rate": 0.6,
+            "accept_rate_including_proposer": 0.7333333333333333,
+            "invalid_reject_count": 0,
+            "proposal_gini": 0.376,
+            "proposer_share": 52.0
+          }
+        },
+        "proposals": [
+          {
+            "index": 0,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 0,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 50,
+              "C": 50
+            },
+            "rejects": [
+              "A"
+            ],
+            "sole_reject": true,
+            "proposer_share": 50,
+            "gini": 0.3333333333333333
+          },
+          {
+            "index": 0,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 34,
+              "B": 33,
+              "C": 33
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 33,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 0,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 51,
+              "B": 49,
+              "C": 0
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 51,
+            "gini": 0.34
+          },
+          {
+            "index": 0,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 34,
+              "B": 33,
+              "C": 33
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 33,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 0,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 51,
+              "B": 49,
+              "C": 0
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 51,
+            "gini": 0.34
+          },
+          {
+            "index": 1,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 1,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 50,
+              "C": 50
+            },
+            "rejects": [
+              "C"
+            ],
+            "sole_reject": true,
+            "proposer_share": 50,
+            "gini": 0.3333333333333333
+          },
+          {
+            "index": 1,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 1,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 51,
+              "B": 0,
+              "C": 49
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 51,
+            "gini": 0.34
+          },
+          {
+            "index": 1,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 40,
+              "B": 40,
+              "C": 20
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.13333333333333333
+          },
+          {
+            "index": 1,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 1,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 50,
+              "B": 0,
+              "C": 50
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 50,
+            "gini": 0.3333333333333333
+          },
+          {
+            "index": 2,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 2,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 10,
+              "B": 40,
+              "C": 50
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.26666666666666666
+          },
+          {
+            "index": 2,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 34,
+              "B": 33,
+              "C": 33
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 33,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 2,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 2,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 50,
+              "B": 40,
+              "C": 10
+            },
+            "rejects": [
+              "C"
+            ],
+            "sole_reject": true,
+            "proposer_share": 40,
+            "gini": 0.26666666666666666
+          },
+          {
+            "index": 2,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 34,
+              "B": 33,
+              "C": 33
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 33,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 2,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 51,
+              "B": 40,
+              "C": 9
+            },
+            "rejects": [
+              "C"
+            ],
+            "sole_reject": true,
+            "proposer_share": 51,
+            "gini": 0.28
+          },
+          {
+            "index": 2,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 51,
+              "B": 40,
+              "C": 9
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.28
+          },
+          {
+            "index": 3,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 3,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 40,
+              "B": 40,
+              "C": 20
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.13333333333333333
+          },
+          {
+            "index": 3,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 3,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 3,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 60,
+              "B": 40,
+              "C": 0
+            },
+            "rejects": [
+              "A"
+            ],
+            "sole_reject": true,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 3,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 3,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 4,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 4,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 4,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 4,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 95,
+              "B": 2,
+              "C": 3
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 95,
+            "gini": 0.62
+          },
+          {
+            "index": 4,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 50,
+              "B": 40,
+              "C": 10
+            },
+            "rejects": [
+              "A"
+            ],
+            "sole_reject": true,
+            "proposer_share": 40,
+            "gini": 0.26666666666666666
+          },
+          {
+            "index": 4,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 4,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 98,
+              "B": 1,
+              "C": 1
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 98,
+            "gini": 0.6466666666666666
+          },
+          {
+            "index": 4,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A"
+            ],
+            "sole_reject": true,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 5,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 5,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 5,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 5,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 85,
+              "B": 10,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 85,
+            "gini": 0.5333333333333333
+          },
+          {
+            "index": 5,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 60,
+              "B": 40,
+              "C": 0
+            },
+            "rejects": [
+              "A"
+            ],
+            "sole_reject": true,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 5,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 5,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 95,
+              "B": 2,
+              "C": 3
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 95,
+            "gini": 0.62
+          },
+          {
+            "index": 5,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 6,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 1,
+              "C": 0
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 6,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 50,
+              "C": 50
+            },
+            "rejects": [],
+            "sole_reject": false,
+            "proposer_share": 50,
+            "gini": 0.3333333333333333
+          },
+          {
+            "index": 7,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 7,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 40,
+              "B": 40,
+              "C": 20
+            },
+            "rejects": [
+              "C"
+            ],
+            "sole_reject": true,
+            "proposer_share": 40,
+            "gini": 0.13333333333333333
+          },
+          {
+            "index": 7,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 34,
+              "B": 33,
+              "C": 33
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 33,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 7,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 50,
+              "B": 40,
+              "C": 10
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 50,
+            "gini": 0.26666666666666666
+          },
+          {
+            "index": 7,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 7,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 7,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 100,
+              "C": 0
+            },
+            "rejects": [],
+            "sole_reject": false,
+            "proposer_share": 100,
+            "gini": 0.6666666666666666
+          },
+          {
+            "index": 8,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 8,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 50,
+              "C": 50
+            },
+            "rejects": [],
+            "sole_reject": false,
+            "proposer_share": 50,
+            "gini": 0.3333333333333333
+          },
+          {
+            "index": 9,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 9,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 50,
+              "C": 50
+            },
+            "rejects": [
+              "C"
+            ],
+            "sole_reject": true,
+            "proposer_share": 50,
+            "gini": 0.3333333333333333
+          },
+          {
+            "index": 9,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 34,
+              "B": 33,
+              "C": 33
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 33,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 9,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 9,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 40,
+              "B": 40,
+              "C": 20
+            },
+            "rejects": [],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.13333333333333333
+          },
+          {
+            "index": 10,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 10,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 40,
+              "B": 40,
+              "C": 20
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.13333333333333333
+          },
+          {
+            "index": 10,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 10,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 10,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 40,
+              "B": 40,
+              "C": 20
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.13333333333333333
+          },
+          {
+            "index": 10,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 34,
+              "B": 33,
+              "C": 33
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 33,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 10,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 40,
+              "B": 40,
+              "C": 20
+            },
+            "rejects": [
+              "C"
+            ],
+            "sole_reject": true,
+            "proposer_share": 40,
+            "gini": 0.13333333333333333
+          },
+          {
+            "index": 10,
+            "round": 8,
+            "proposer": "B",
+            "allocation": {
+              "A": 40,
+              "B": 40,
+              "C": 20
+            },
+            "rejects": [
+              "C"
+            ],
+            "sole_reject": true,
+            "proposer_share": 40,
+            "gini": 0.13333333333333333
+          },
+          {
+            "index": 11,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 11,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 50,
+              "C": 50
+            },
+            "rejects": [],
+            "sole_reject": false,
+            "proposer_share": 50,
+            "gini": 0.3333333333333333
+          },
+          {
+            "index": 12,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 12,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 40,
+              "B": 40,
+              "C": 20
+            },
+            "rejects": [
+              "C"
+            ],
+            "sole_reject": true,
+            "proposer_share": 40,
+            "gini": 0.13333333333333333
+          },
+          {
+            "index": 12,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 34,
+              "B": 33,
+              "C": 33
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 33,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 12,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 50,
+              "B": 0,
+              "C": 50
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 50,
+            "gini": 0.3333333333333333
+          },
+          {
+            "index": 12,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 60,
+              "B": 40,
+              "C": 0
+            },
+            "rejects": [
+              "A"
+            ],
+            "sole_reject": true,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 12,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 34,
+              "B": 33,
+              "C": 33
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 33,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 12,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 13,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 13,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 40,
+              "B": 40,
+              "C": 20
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.13333333333333333
+          },
+          {
+            "index": 13,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 13,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 13,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 50,
+              "B": 40,
+              "C": 10
+            },
+            "rejects": [
+              "A"
+            ],
+            "sole_reject": true,
+            "proposer_share": 40,
+            "gini": 0.26666666666666666
+          },
+          {
+            "index": 13,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 13,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 14,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 14,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 40,
+              "B": 40,
+              "C": 20
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.13333333333333333
+          },
+          {
+            "index": 14,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 34,
+              "B": 33,
+              "C": 33
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 33,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 14,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 51,
+              "B": 49,
+              "C": 0
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 51,
+            "gini": 0.34
+          },
+          {
+            "index": 14,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 40,
+              "B": 40,
+              "C": 20
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.13333333333333333
+          },
+          {
+            "index": 14,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 34,
+              "B": 33,
+              "C": 33
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 33,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 14,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 51,
+              "B": 49,
+              "C": 0
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 51,
+            "gini": 0.34
+          },
+          {
+            "index": 15,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 90,
+              "B": 5,
+              "C": 5
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 90,
+            "gini": 0.5666666666666667
+          },
+          {
+            "index": 15,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 40,
+              "C": 60
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 15,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 15,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 85,
+              "B": 10,
+              "C": 5
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 85,
+            "gini": 0.5333333333333333
+          },
+          {
+            "index": 15,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 50,
+              "B": 40,
+              "C": 10
+            },
+            "rejects": [
+              "A"
+            ],
+            "sole_reject": true,
+            "proposer_share": 40,
+            "gini": 0.26666666666666666
+          },
+          {
+            "index": 15,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 15,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 95,
+              "B": 2,
+              "C": 3
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 95,
+            "gini": 0.62
+          },
+          {
+            "index": 16,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 16,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 50,
+              "C": 50
+            },
+            "rejects": [
+              "C"
+            ],
+            "sole_reject": true,
+            "proposer_share": 50,
+            "gini": 0.3333333333333333
+          },
+          {
+            "index": 16,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 16,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 51,
+              "B": 49,
+              "C": 0
+            },
+            "rejects": [],
+            "sole_reject": false,
+            "proposer_share": 51,
+            "gini": 0.34
+          },
+          {
+            "index": 17,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 17,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 50,
+              "C": 50
+            },
+            "rejects": [
+              "C"
+            ],
+            "sole_reject": true,
+            "proposer_share": 50,
+            "gini": 0.3333333333333333
+          },
+          {
+            "index": 17,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 34,
+              "B": 33,
+              "C": 33
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 33,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 17,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 51,
+              "B": 49,
+              "C": 0
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 51,
+            "gini": 0.34
+          },
+          {
+            "index": 17,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 40,
+              "B": 40,
+              "C": 20
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.13333333333333333
+          },
+          {
+            "index": 17,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 34,
+              "B": 33,
+              "C": 33
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 33,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 17,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 51,
+              "B": 49,
+              "C": 0
+            },
+            "rejects": [
+              "C"
+            ],
+            "sole_reject": true,
+            "proposer_share": 51,
+            "gini": 0.34
+          },
+          {
+            "index": 18,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 18,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 0,
+              "B": 50,
+              "C": 50
+            },
+            "rejects": [
+              "C"
+            ],
+            "sole_reject": true,
+            "proposer_share": 50,
+            "gini": 0.3333333333333333
+          },
+          {
+            "index": 18,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 34,
+              "B": 33,
+              "C": 33
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 33,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 18,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 18,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 51,
+              "B": 49,
+              "C": 0
+            },
+            "rejects": [
+              "A"
+            ],
+            "sole_reject": true,
+            "proposer_share": 49,
+            "gini": 0.34
+          },
+          {
+            "index": 18,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 34,
+              "B": 33,
+              "C": 33
+            },
+            "rejects": [
+              "A",
+              "B"
+            ],
+            "sole_reject": false,
+            "proposer_share": 33,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 18,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 19,
+            "round": 1,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 99,
+            "gini": 0.66
+          },
+          {
+            "index": 19,
+            "round": 2,
+            "proposer": "B",
+            "allocation": {
+              "A": 40,
+              "B": 40,
+              "C": 20
+            },
+            "rejects": [
+              "A",
+              "C"
+            ],
+            "sole_reject": false,
+            "proposer_share": 40,
+            "gini": 0.13333333333333333
+          },
+          {
+            "index": 19,
+            "round": 3,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 19,
+            "round": 4,
+            "proposer": "A",
+            "allocation": {
+              "A": 50,
+              "B": 0,
+              "C": 50
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 50,
+            "gini": 0.3333333333333333
+          },
+          {
+            "index": 19,
+            "round": 5,
+            "proposer": "B",
+            "allocation": {
+              "A": 60,
+              "B": 40,
+              "C": 0
+            },
+            "rejects": [
+              "A"
+            ],
+            "sole_reject": true,
+            "proposer_share": 40,
+            "gini": 0.4
+          },
+          {
+            "index": 19,
+            "round": 6,
+            "proposer": "C",
+            "allocation": {
+              "A": 33,
+              "B": 33,
+              "C": 34
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 34,
+            "gini": 0.006666666666666667
+          },
+          {
+            "index": 19,
+            "round": 7,
+            "proposer": "A",
+            "allocation": {
+              "A": 99,
+              "B": 0,
+              "C": 1
+            },
+            "rejects": [
+              "B"
+            ],
+            "sole_reject": true,
+            "proposer_share": 99,
+            "gini": 0.66
+          }
+        ],
+        "blockers": {
+          "A": {
+            "rejects": 41,
+            "votes": 71,
+            "sole_rejects": 10,
+            "reject_rate": 0.5774647887323944
+          },
+          "B": {
+            "rejects": 80,
+            "votes": 84,
+            "sole_rejects": 33,
+            "reject_rate": 0.9523809523809523
+          },
+          "C": {
+            "rejects": 56,
+            "votes": 91,
+            "sole_rejects": 12,
+            "reject_rate": 0.6153846153846154
+          }
+        },
+        "almost_agreements_by_run": [
+          {
+            "index": 0,
+            "count": 4
+          },
+          {
+            "index": 1,
+            "count": 1
+          },
+          {
+            "index": 2,
+            "count": 2
+          },
+          {
+            "index": 3,
+            "count": 5
+          },
+          {
+            "index": 4,
+            "count": 3
+          },
+          {
+            "index": 5,
+            "count": 2
+          },
+          {
+            "index": 6,
+            "count": 0
+          },
+          {
+            "index": 7,
+            "count": 4
+          },
+          {
+            "index": 8,
+            "count": 0
+          },
+          {
+            "index": 9,
+            "count": 2
+          },
+          {
+            "index": 10,
+            "count": 4
+          },
+          {
+            "index": 11,
+            "count": 0
+          },
+          {
+            "index": 12,
+            "count": 6
+          },
+          {
+            "index": 13,
+            "count": 5
+          },
+          {
+            "index": 14,
+            "count": 1
+          },
+          {
+            "index": 15,
+            "count": 2
+          },
+          {
+            "index": 16,
+            "count": 2
+          },
+          {
+            "index": 17,
+            "count": 3
+          },
+          {
+            "index": 18,
+            "count": 4
+          },
+          {
+            "index": 19,
+            "count": 5
+          }
+        ],
+        "concessions": {
+          "A": {
+            "runs": [
+              {
+                "index": 0,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 51,
+                    "concession_from_previous": 48
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 51,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 48
+              },
+              {
+                "index": 1,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 51,
+                    "concession_from_previous": 48
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 50,
+                    "concession_from_previous": 1
+                  }
+                ],
+                "net_concession": 49
+              },
+              {
+                "index": 2,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 99,
+                    "concession_from_previous": 0
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 51,
+                    "concession_from_previous": 48
+                  }
+                ],
+                "net_concession": 48
+              },
+              {
+                "index": 3,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 99,
+                    "concession_from_previous": 0
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 99,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 4,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 90,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 95,
+                    "concession_from_previous": -5
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 98,
+                    "concession_from_previous": -3
+                  }
+                ],
+                "net_concession": -8
+              },
+              {
+                "index": 5,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 90,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 85,
+                    "concession_from_previous": 5
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 95,
+                    "concession_from_previous": -10
+                  }
+                ],
+                "net_concession": -5
+              },
+              {
+                "index": 6,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  }
+                ],
+                "net_concession": null
+              },
+              {
+                "index": 7,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 50,
+                    "concession_from_previous": 49
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 99,
+                    "concession_from_previous": -49
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 8,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  }
+                ],
+                "net_concession": null
+              },
+              {
+                "index": 9,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 99,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 10,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 99,
+                    "concession_from_previous": 0
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 40,
+                    "concession_from_previous": 59
+                  }
+                ],
+                "net_concession": 59
+              },
+              {
+                "index": 11,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  }
+                ],
+                "net_concession": null
+              },
+              {
+                "index": 12,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 50,
+                    "concession_from_previous": 49
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 99,
+                    "concession_from_previous": -49
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 13,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 99,
+                    "concession_from_previous": 0
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 99,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 14,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 51,
+                    "concession_from_previous": 48
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 51,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 48
+              },
+              {
+                "index": 15,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 90,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 85,
+                    "concession_from_previous": 5
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 95,
+                    "concession_from_previous": -10
+                  }
+                ],
+                "net_concession": -5
+              },
+              {
+                "index": 16,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 51,
+                    "concession_from_previous": 48
+                  }
+                ],
+                "net_concession": 48
+              },
+              {
+                "index": 17,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 51,
+                    "concession_from_previous": 48
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 51,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 48
+              },
+              {
+                "index": 18,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 99,
+                    "concession_from_previous": 0
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 99,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 19,
+                "proposals": [
+                  {
+                    "round": 1,
+                    "own_share": 99,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 4,
+                    "own_share": 50,
+                    "concession_from_previous": 49
+                  },
+                  {
+                    "round": 7,
+                    "own_share": 99,
+                    "concession_from_previous": -49
+                  }
+                ],
+                "net_concession": 0
+              }
+            ],
+            "transitions": 32,
+            "mean_step_concession": 10.3125,
+            "mean_net_concession": 19.41176470588235
+          },
+          "B": {
+            "runs": [
+              {
+                "index": 0,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 50,
+                    "concession_from_previous": null
+                  }
+                ],
+                "net_concession": null
+              },
+              {
+                "index": 1,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 50,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 10
+                  }
+                ],
+                "net_concession": 10
+              },
+              {
+                "index": 2,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 40,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 3,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 40,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 4,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 40,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 5,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 40,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 6,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 50,
+                    "concession_from_previous": null
+                  }
+                ],
+                "net_concession": null
+              },
+              {
+                "index": 7,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 40,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 100,
+                    "concession_from_previous": -60
+                  }
+                ],
+                "net_concession": -60
+              },
+              {
+                "index": 8,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 50,
+                    "concession_from_previous": null
+                  }
+                ],
+                "net_concession": null
+              },
+              {
+                "index": 9,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 50,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 10
+                  }
+                ],
+                "net_concession": 10
+              },
+              {
+                "index": 10,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 40,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  },
+                  {
+                    "round": 8,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 11,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 50,
+                    "concession_from_previous": null
+                  }
+                ],
+                "net_concession": null
+              },
+              {
+                "index": 12,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 40,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 13,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 40,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 14,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 40,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 15,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 40,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 16,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 50,
+                    "concession_from_previous": null
+                  }
+                ],
+                "net_concession": null
+              },
+              {
+                "index": 17,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 50,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 10
+                  }
+                ],
+                "net_concession": 10
+              },
+              {
+                "index": 18,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 50,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 49,
+                    "concession_from_previous": 1
+                  }
+                ],
+                "net_concession": 1
+              },
+              {
+                "index": 19,
+                "proposals": [
+                  {
+                    "round": 2,
+                    "own_share": 40,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 5,
+                    "own_share": 40,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              }
+            ],
+            "transitions": 19,
+            "mean_step_concession": -1.5263157894736843,
+            "mean_net_concession": -1.9333333333333333
+          },
+          "C": {
+            "runs": [
+              {
+                "index": 0,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 33,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 33,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 1,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 2,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 33,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 33,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 3,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 4,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 5,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 6,
+                "proposals": [],
+                "net_concession": null
+              },
+              {
+                "index": 7,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 33,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": -1
+                  }
+                ],
+                "net_concession": -1
+              },
+              {
+                "index": 8,
+                "proposals": [],
+                "net_concession": null
+              },
+              {
+                "index": 9,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 33,
+                    "concession_from_previous": null
+                  }
+                ],
+                "net_concession": null
+              },
+              {
+                "index": 10,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 33,
+                    "concession_from_previous": 1
+                  }
+                ],
+                "net_concession": 1
+              },
+              {
+                "index": 11,
+                "proposals": [],
+                "net_concession": null
+              },
+              {
+                "index": 12,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 33,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 33,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 13,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 14,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 33,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 33,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 15,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 16,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  }
+                ],
+                "net_concession": null
+              },
+              {
+                "index": 17,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 33,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 33,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 18,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 33,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 33,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              },
+              {
+                "index": 19,
+                "proposals": [
+                  {
+                    "round": 3,
+                    "own_share": 34,
+                    "concession_from_previous": null
+                  },
+                  {
+                    "round": 6,
+                    "own_share": 34,
+                    "concession_from_previous": 0
+                  }
+                ],
+                "net_concession": 0
+              }
+            ],
+            "transitions": 15,
+            "mean_step_concession": 0.0,
+            "mean_net_concession": 0.0
+          }
+        }
+      }
+    }
+  }
+}

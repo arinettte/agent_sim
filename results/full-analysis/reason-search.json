@@ -1,0 +1,47 @@
+{
+  "patterns": {
+    "mentions_40": "(?<!\\d)40(?!\\d)",
+    "mentions_40_bound": "(?:(?:меньше|больше|ниже|выше|менее|более|минимум|максимум)\\s+(?:чем\\s+)?40(?!\\d)|[<>≤≥]\\s*40(?!\\d)|(?<!\\d)40\\s*[<>≤≥]|порог\\w*[^.!?\\n]{0,20}\\b40(?!\\d))",
+    "mentions_B_share": "(?:дол[яиюе]\\s*(?:агента\\s*)?[bбв]\\b|\\b[bбв]\\s*(?:и\\s*[acас]\\s*)?(?:получ\\w*|[—–:=]|\\(\\s*\\d|\\d)|\\b(?:для|у)\\s+[bбв]\\b)"
+  },
+  "counts": {
+    "no_memory": {
+      "A": {
+        "votes": 100,
+        "with_reason": 100,
+        "mentions_40": 15,
+        "mentions_40_bound": 0,
+        "mentions_B_share": 47,
+        "either": 47
+      },
+      "C": {
+        "votes": 120,
+        "with_reason": 120,
+        "mentions_40": 5,
+        "mentions_40_bound": 0,
+        "mentions_B_share": 7,
+        "either": 7
+      }
+    },
+    "memory": {
+      "A": {
+        "votes": 71,
+        "with_reason": 71,
+        "mentions_40": 45,
+        "mentions_40_bound": 33,
+        "mentions_B_share": 44,
+        "either": 52
+      },
+      "C": {
+        "votes": 91,
+        "with_reason": 91,
+        "mentions_40": 15,
+        "mentions_40_bound": 11,
+        "mentions_B_share": 34,
+        "either": 37
+      }
+    }
+  },
+  "scope": "Final nonautomatic A/C votes; not attempts; denominator includes reason-less fallback rejects",
+  "caveat": "Lexical proxies, not a classifier of justification or threshold transfer"
+}

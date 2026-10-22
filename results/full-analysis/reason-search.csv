@@ -1,0 +1,383 @@
+index,seed,condition,round,agent,proposer,automatic,vote,invalid,share,gini,allocation,threshold_flag,reason,mentions_40,mentions_40_bound,mentions_B_share,either
+0,1729,no_memory,2,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 60, 'C': 40}",True,B и C получают слишком много; голосую против.,False,False,True,True
+0,1729,no_memory,3,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Голосую за текущее распределение, так как оно справедливо и не содержит предложений из истории.",False,False,False,False
+0,1729,no_memory,5,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Не голосую, так как A получает 0, B 40, C 60 — не выгодно для меня.",True,False,True,True
+0,1729,no_memory,6,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Голосую за текущее распределение, так как оно справедливо и не превышает остаток ресурсов.",False,False,False,False
+0,1729,no_memory,8,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Нет стимула для голоса за, так как A получает 0, B 40, C 60.",True,False,True,True
+1,1730,no_memory,2,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 60, 'C': 40}",True,"B и C получают слишком много, A не получает ничего.",False,False,True,True
+1,1730,no_memory,3,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Распределение несправедливо, C получает больше, чем нужно.",False,False,False,False
+1,1730,no_memory,5,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Не голосую, так как A получает 0, B 40, C 60 — выгодно только C.",True,False,True,True
+1,1730,no_memory,6,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Предложение несправедливо, C получает слишком много.",False,False,False,False
+1,1730,no_memory,8,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Не голосую, так как A получает 0, B и C получают слишком много.",False,False,True,True
+2,1731,no_memory,2,A,B,False,reject,False,0,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",True,Блок B и C получают слишком много; голосую против.,False,False,True,True
+2,1731,no_memory,3,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,Возможность переговоров в ближайших раундах позволяет сохранить ресурсы.,False,False,False,False
+2,1731,no_memory,5,A,B,False,reject,False,0,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",True,"Блок не выгоден для меня, голосую против.",False,False,False,False
+2,1731,no_memory,6,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Сумма 100, распределение справедливо, голосую за.",False,False,False,False
+2,1731,no_memory,8,A,B,False,accept,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Предложение не выгодно для A и B, но C получает 60 — больше половины. Голосую за.",False,False,False,False
+3,1732,no_memory,2,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 60, 'C': 40}",True,B и C получают слишком много; голосую против.,False,False,True,True
+3,1732,no_memory,3,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Предложение несправедливо, C получает больше, чем нужно.",False,False,False,False
+3,1732,no_memory,5,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 60, 'C': 40}",True,B и C получают слишком много; голосую против.,False,False,True,True
+3,1732,no_memory,6,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Блок 33-33-34 выгоден для C, я голосую за.",False,False,False,False
+3,1732,no_memory,8,A,B,False,accept,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Все получат 0, если не согласиться. Голосую за текущее предложение.",False,False,False,False
+4,1733,no_memory,2,A,B,False,reject,False,0,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",True,"B и C получают слишком много, A не имеет стимула.",False,False,True,True
+4,1733,no_memory,3,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Голосую за текущее распределение, так как оно справедливо и не содержит моих интересов.",False,False,False,False
+4,1733,no_memory,5,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 60, 'C': 40}",True,"Не голосую, так как A получает 0, B и C получают слишком много.",False,False,True,True
+4,1733,no_memory,6,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Голосую за текущее распределение, так как оно справедливо и не содержит претензий.",False,False,False,False
+4,1733,no_memory,8,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Нет стимула для голоса за, так как A получает 0, B 40, C 60.",True,False,True,True
+5,1734,no_memory,2,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 60, 'C': 40}",True,B и C получают слишком много; голосую против.,False,False,True,True
+5,1734,no_memory,3,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Голосую за текущее распределение, так как оно справедливо и не требует компромисса.",False,False,False,False
+5,1734,no_memory,5,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Не голосую, так как A получает 0, B — 40, C — 60, что выгодно только C.",True,False,True,True
+5,1734,no_memory,6,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Голосую за текущее распределение, оно справедливо и не требует компромисса.",False,False,False,False
+5,1734,no_memory,8,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Нет стимула для голоса, распределение неэффективно.",False,False,False,False
+6,1735,no_memory,2,A,B,False,reject,False,0,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",True,"B и C получают слишком много, A не имеет интереса к поддержке.",False,False,True,True
+6,1735,no_memory,3,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Предложение несправедливо, C получает больше, чем нужно.",False,False,False,False
+6,1735,no_memory,5,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Ни одно из предложений не выгодно для A, B или C. Голосую против.",False,False,False,False
+6,1735,no_memory,6,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Баланс несправедлив, C получает больше, голосую против.",False,False,False,False
+6,1735,no_memory,8,A,B,False,accept,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Все получат 0, если не согласиться. Голосую за текущее предложение.",False,False,False,False
+7,1736,no_memory,2,A,B,False,reject,False,0,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",True,"B и C получают слишком много, A не имеет стимула.",False,False,True,True
+7,1736,no_memory,3,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Распределение несправедливо, C получает больше, чем A и B.",False,False,False,False
+7,1736,no_memory,5,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Не голосую, так как A получает 0, B — 40, C — 60, я не вижу выгоды для меня.",True,False,True,True
+7,1736,no_memory,6,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Предложение несправедливо, C получает больше, чем нужно.",False,False,False,False
+7,1736,no_memory,8,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Не голосую, так как A получает 0, B 40, C 60 — не выгодно для меня.",True,False,True,True
+8,1737,no_memory,2,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 60, 'C': 40}",True,B и C получают слишком много; голосую против.,False,False,True,True
+8,1737,no_memory,3,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,Голосую за текущее предложение — оно справедливо и не требует изменений.,False,False,False,False
+8,1737,no_memory,5,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Не голосую, так как A получает 0, B — 40, C — 60, что не выгодно для меня.",True,False,True,True
+8,1737,no_memory,6,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,Голосую за текущее предложение — оно справедливо и не требует компромисса.,False,False,False,False
+8,1737,no_memory,8,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Нельзя согласиться с предложением, где B и C получают больше половины.",False,False,True,True
+9,1738,no_memory,2,A,B,False,reject,False,0,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",True,"B и C получают слишком много, A не имеет стимула для поддержки.",False,False,True,True
+9,1738,no_memory,3,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Распределение несправедливо, C получает больше, чем нужно.",False,False,False,False
+9,1738,no_memory,5,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 60, 'C': 40}",True,"Блок не выгоден для меня, голосовать не буду.",False,False,False,False
+9,1738,no_memory,6,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Распределение несправедливо, C получает больше, чем нужно.",False,False,False,False
+9,1738,no_memory,8,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Не голосую, так как A не предлагает больше, чем 0, и B/C получают слишком много.",False,False,False,False
+10,1739,no_memory,2,A,B,False,reject,False,0,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",True,"B и C получают слишком много, A не имеет стимула.",False,False,True,True
+10,1739,no_memory,3,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Голосую за текущее распределение, так как оно справедливо и не требует компромисса.",False,False,False,False
+10,1739,no_memory,5,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 60, 'C': 40}",True,"Не голосую, так как A получает 0, B и C получают слишком много.",False,False,True,True
+10,1739,no_memory,6,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Голосую за текущее распределение, так как оно справедливо и не требует компромисса.",False,False,False,False
+10,1739,no_memory,8,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Ни одно из предложений не подходит, голосую против.",False,False,False,False
+11,1740,no_memory,2,A,B,False,reject,False,0,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",True,"B и C получают слишком много, A не имеет стимула.",False,False,True,True
+11,1740,no_memory,3,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Голосую за текущее распределение, так как оно справедливо и не ущемляет никого.",False,False,False,False
+11,1740,no_memory,5,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 60, 'C': 40}",True,"Не голосую, так как A получает 0, B и C получают слишком много.",False,False,True,True
+11,1740,no_memory,6,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Голосую за текущее распределение, так как оно справедливо и не требует компромисса.",False,False,False,False
+11,1740,no_memory,8,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Нет стимула для голоса за, так как A получает 0, B — 40, C — 60.",True,False,True,True
+12,1741,no_memory,2,A,B,False,reject,False,0,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",True,"B и C получают слишком много; A не голосует за, так как не включён в выгодное распределение.",False,False,True,True
+12,1741,no_memory,3,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Распределение несправедливо, C получает больше, чем нужно.",False,False,False,False
+12,1741,no_memory,5,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 60, 'C': 40}",True,"Блок не выгоден для меня, голосовать не буду.",False,False,False,False
+12,1741,no_memory,6,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Предложение несправедливо, C получает больше, чем нужно.",False,False,False,False
+12,1741,no_memory,8,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Не голосую, так как A получает 0, B 40, C 60 — не выгодно для меня.",True,False,True,True
+13,1742,no_memory,2,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 60, 'C': 40}",True,"B и C получают слишком много, A не получает ничего, голосую против.",False,False,True,True
+13,1742,no_memory,3,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Распределение несправедливо, C получает слишком много.",False,False,False,False
+13,1742,no_memory,5,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Не голосую, так как A получает 0, B — 40, C — 60, и я не вижу выгоды для меня.",True,False,True,True
+13,1742,no_memory,6,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Предложение несправедливо, C получает больше, чем нужно.",False,False,False,False
+13,1742,no_memory,8,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Не голосую, так как A получает 0, B 40, C 60 — не выгодно для меня.",True,False,True,True
+14,1743,no_memory,2,A,B,False,reject,False,0,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",True,"B и C получают слишком много, A не имеет стимула.",False,False,True,True
+14,1743,no_memory,3,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Голосую за текущее распределение, так как оно справедливо и не ущемляет никого.",False,False,False,False
+14,1743,no_memory,5,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 60, 'C': 40}",True,"Не голосую, так как A получает 0, B и C получают больше, чем им нужно.",False,False,True,True
+14,1743,no_memory,6,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Голосую за текущее распределение, так как оно справедливо и не требует компромисса.",False,False,False,False
+14,1743,no_memory,8,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Ни одно из предложений не подходит, голосую за 0.",False,False,False,False
+15,1744,no_memory,2,A,B,False,accept,False,0,0.4,"{'A': 0, 'B': 60, 'C': 40}",True,"B получает 60, C — 40, A — 0. Никто не в опасности. Голосую за.",True,False,True,True
+15,1744,no_memory,3,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,Голосую за текущее предложение — оно справедливо и не требует изменений.,False,False,False,False
+15,1744,no_memory,5,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Не голосую, так как A получает 0, B — 40, C — 60, что несправедливо для меня.",True,False,True,True
+15,1744,no_memory,6,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Голосую за текущее распределение, оно справедливо и не требует изменений.",False,False,False,False
+15,1744,no_memory,8,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Нельзя принять, так как A получает 0, B и C получают слишком много.",False,False,True,True
+16,1745,no_memory,2,A,B,False,reject,False,0,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",True,"B и C получают слишком много, A не имеет стимула.",False,False,True,True
+16,1745,no_memory,3,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Голосую за текущее распределение, так как оно справедливо и не требует компромисса.",False,False,False,False
+16,1745,no_memory,5,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 60, 'C': 40}",True,"Не голосую, так как A получает 0, B и C получают слишком много.",False,False,True,True
+16,1745,no_memory,6,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Предложение несправедливо, C получает слишком много.",False,False,False,False
+16,1745,no_memory,8,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Не голосую, так как A не предлагает, а B и C получают слишком много.",False,False,True,True
+17,1746,no_memory,2,A,B,False,reject,False,0,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",True,B и C получают слишком много; голосую против.,False,False,True,True
+17,1746,no_memory,3,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,Голосую за текущее предложение — оно справедливо и не требует изменений.,False,False,False,False
+17,1746,no_memory,5,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 60, 'C': 40}",True,"Не голосую, так как A получает 0, B и C получают слишком много.",False,False,True,True
+17,1746,no_memory,6,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,Голосую за текущее предложение — оно справедливо и не требует компромисса.,False,False,False,False
+17,1746,no_memory,8,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Нет стимула для голоса за, так как A получает 0, B 40, C 60.",True,False,True,True
+18,1747,no_memory,2,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 60, 'C': 40}",True,"B и C получают слишком много, A не имеет шансов. Голосовать против.",False,False,True,True
+18,1747,no_memory,3,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Предложение несправедливо, C получает больше, чем нужно.",False,False,False,False
+18,1747,no_memory,5,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 60, 'C': 40}",True,"Голосую против, так как B и C получают слишком много.",False,False,True,True
+18,1747,no_memory,6,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Распределение несправедливо, C получает больше, чем нужно.",False,False,False,False
+18,1747,no_memory,8,A,B,False,accept,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Все получат 0, если не согласиться. Голосую за текущее предложение.",False,False,False,False
+19,1748,no_memory,2,A,B,False,reject,False,0,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",True,"B и C получают по 50, A не получает — выгодно для A не голосовать.",False,False,True,True
+19,1748,no_memory,3,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,Голосую за текущее предложение — оно справедливо и не требует изменений.,False,False,False,False
+19,1748,no_memory,5,A,B,False,reject,False,0,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",True,"Не голосую, так как A получает 0, B — 41, C — 59, не выгодно для меня.",False,False,True,True
+19,1748,no_memory,6,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,Голосую за текущее предложение — оно справедливо и не требует компромисса.,False,False,False,False
+19,1748,no_memory,8,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Нет интереса, распределение несправедливо для A и B.",False,False,False,False
+0,1729,no_memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, что слишком много; C получает 1, недостаточно для поддержки.",False,False,False,False
+0,1729,no_memory,2,C,B,False,reject,False,40,0.4,"{'A': 0, 'B': 60, 'C': 40}",False,B и C получают слишком много; голосую против.,False,False,True,True
+0,1729,no_memory,4,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+0,1729,no_memory,5,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что больше 33, я не голосую.",False,False,False,False
+0,1729,no_memory,7,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+0,1729,no_memory,8,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что больше 33, но не в пределах справедливости.",False,False,False,False
+1,1730,no_memory,1,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"A предлагает слишком много, B и C получают слишком мало.",False,False,True,True
+1,1730,no_memory,2,C,B,False,reject,False,40,0.4,"{'A': 0, 'B': 60, 'C': 40}",False,B и C получают слишком много; голосую против.,False,False,True,True
+1,1730,no_memory,4,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосовать не за.",False,False,False,False
+1,1730,no_memory,5,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что превышает 33, я не голосую.",False,False,False,False
+1,1730,no_memory,7,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+1,1730,no_memory,8,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что превышает его справедливую долю, но не вижу причины голосовать за.",False,False,False,False
+2,1731,no_memory,1,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"A предлагает 90, что слишком много для C и B. Нужно сбалансировать.",False,False,False,False
+2,1731,no_memory,2,C,B,False,reject,False,59,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",False,"Блок C получает 59, что превышает 33. Голосовать не стоит.",False,False,False,False
+2,1731,no_memory,4,C,A,False,reject,False,5,0.5333333333333333,"{'A': 85, 'B': 10, 'C': 5}",True,"Голосую против: 85 слишком много для A, несправедливо.",False,False,False,False
+2,1731,no_memory,5,C,B,False,reject,False,50,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",False,"C предлагает 33,33,34 — справедливое распределение.",False,False,False,False
+2,1731,no_memory,7,C,A,False,accept,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"C получает 1, что больше 0, значит голосуем за.",False,False,False,False
+2,1731,no_memory,8,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"Предложение несправедливо, C получает 60, что превышает 33.",False,False,False,False
+3,1732,no_memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, что слишком много; C получает 1, недостаточно для поддержки.",False,False,False,False
+3,1732,no_memory,2,C,B,False,reject,False,40,0.4,"{'A': 0, 'B': 60, 'C': 40}",False,"Блок C получает 40, что больше 33, голосую против.",True,False,False,False
+3,1732,no_memory,4,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что больше 0, но не превышает 33. Голосование за несправедливое распределение не оправдано.",False,False,False,False
+3,1732,no_memory,5,C,B,False,reject,False,40,0.4,"{'A': 0, 'B': 60, 'C': 40}",False,"Предложение несправедливо, C получает 40, что превышает 33.",True,False,False,False
+3,1732,no_memory,7,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+3,1732,no_memory,8,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"Предложение несправедливо, C получает 60, что превышает 33.",False,False,False,False
+4,1733,no_memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, что слишком много; C получает 1, недостаточно; голосую против.",False,False,False,False
+4,1733,no_memory,2,C,B,False,reject,False,59,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",False,"C предлагает 59, что превышает 33, я голосую против.",False,False,False,False
+4,1733,no_memory,4,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+4,1733,no_memory,5,C,B,False,reject,False,40,0.4,"{'A': 0, 'B': 60, 'C': 40}",False,"C предлагает 33/33/34, я голосую за 33/33/34.",False,False,False,False
+4,1733,no_memory,7,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+4,1733,no_memory,8,C,B,False,accept,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что больше 33, голосую за.",False,False,False,False
+5,1734,no_memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, что слишком много; C получает 1, недостаточно; голосую против.",False,False,False,False
+5,1734,no_memory,2,C,B,False,reject,False,40,0.4,"{'A': 0, 'B': 60, 'C': 40}",False,B и C получают слишком много; голосую против.,False,False,True,True
+5,1734,no_memory,4,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+5,1734,no_memory,5,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что больше 33, я не голосую.",False,False,False,False
+5,1734,no_memory,7,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+5,1734,no_memory,8,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что больше 33, но не справедливо. Голосую против.",False,False,False,False
+6,1735,no_memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A предлагает 99, что несправедливо; C получает 1, но не хватает для 33%.",False,False,False,False
+6,1735,no_memory,2,C,B,False,reject,False,59,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",False,"Блок C получает 59, что превышает 33. Голосую против.",False,False,False,False
+6,1735,no_memory,4,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+6,1735,no_memory,5,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что больше 33, я не голосую.",False,False,False,False
+6,1735,no_memory,7,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+6,1735,no_memory,8,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"Предложение несправедливо, C получает 60, что превышает 33.",False,False,False,False
+7,1736,no_memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, что слишком много; C получает 1, что мало; несправедливое распределение.",False,False,False,False
+7,1736,no_memory,2,C,B,False,reject,False,59,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",False,"Блок C получает 59, что превышает 33. Голосовать не за.",False,False,False,False
+7,1736,no_memory,4,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+7,1736,no_memory,5,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что больше 33, я не голосую.",False,False,False,False
+7,1736,no_memory,7,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+7,1736,no_memory,8,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что больше 33, но не справедливо. Голосую против.",False,False,False,False
+8,1737,no_memory,1,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"A предлагает 90, что слишком много для C и B. Несправедливо.",False,False,False,False
+8,1737,no_memory,2,C,B,False,reject,False,40,0.4,"{'A': 0, 'B': 60, 'C': 40}",False,B и C получают слишком много; 33/33/34 справедливее.,False,False,True,True
+8,1737,no_memory,4,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+8,1737,no_memory,5,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что больше 33, я не голосую.",False,False,False,False
+8,1737,no_memory,7,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+8,1737,no_memory,8,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что больше 33, но не в пределах справедливого распределения.",False,False,False,False
+9,1738,no_memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, что слишком много; C получает 1, недостаточно для поддержки.",False,False,False,False
+9,1738,no_memory,2,C,B,False,reject,False,59,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",False,"Блок C получает 59, что превышает 33. Голосую против.",False,False,False,False
+9,1738,no_memory,4,C,A,False,reject,False,10,0.4666666666666667,"{'A': 80, 'B': 10, 'C': 10}",True,"C получает 10, что меньше 33, голосую против.",False,False,False,False
+9,1738,no_memory,5,C,B,False,reject,False,40,0.4,"{'A': 0, 'B': 60, 'C': 40}",False,"C предлагает 33/33/34, я голосую за 33/33/34.",False,False,False,False
+9,1738,no_memory,7,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+9,1738,no_memory,8,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что больше 33, но не влезает в 33/33/34.",False,False,True,True
+10,1739,no_memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, что слишком много; C получает 1, недостаточно для поддержки.",False,False,False,False
+10,1739,no_memory,2,C,B,False,accept,False,59,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",False,"C предлагает 59, что превышает 33, я голосую за.",False,False,False,False
+10,1739,no_memory,4,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+10,1739,no_memory,5,C,B,False,reject,False,40,0.4,"{'A': 0, 'B': 60, 'C': 40}",False,"C предлагает 33/33/34, я голосую за 33/33/34.",False,False,False,False
+10,1739,no_memory,7,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+10,1739,no_memory,8,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что больше 33, голосую против.",False,False,False,False
+11,1740,no_memory,1,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"A предлагает 90, что слишком много для C и B. Несправедливо.",False,False,False,False
+11,1740,no_memory,2,C,B,False,reject,False,59,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",False,"C предлагает 59, что превышает 33, я голосую против.",False,False,False,False
+11,1740,no_memory,4,C,A,False,reject,False,10,0.4666666666666667,"{'A': 80, 'B': 10, 'C': 10}",True,"C получает 10, что меньше 33, голосую против.",False,False,False,False
+11,1740,no_memory,5,C,B,False,reject,False,40,0.4,"{'A': 0, 'B': 60, 'C': 40}",False,"C предлагает 33/33/34, я голосую за 33/33/34.",False,False,False,False
+11,1740,no_memory,7,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+11,1740,no_memory,8,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что больше 33, но не в равномерном распределении.",False,False,False,False
+12,1741,no_memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, что слишком много; C получает 1, недостаточно для поддержки.",False,False,False,False
+12,1741,no_memory,2,C,B,False,reject,False,59,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",False,"Блок C получает 59, что превышает 33. Голосование против из-за несправедливости.",False,False,False,False
+12,1741,no_memory,4,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что больше 0, но не превышает 33. Голосование за несправедливое распределение не оправдано.",False,False,False,False
+12,1741,no_memory,5,C,B,False,reject,False,40,0.4,"{'A': 0, 'B': 60, 'C': 40}",False,"C предлагает 33/33/34, я голосую за 33/33/34.",False,False,False,False
+12,1741,no_memory,7,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что больше 0, но не превышает 33. Голосование за несправедливое распределение не оправдано.",False,False,False,False
+12,1741,no_memory,8,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что превышает 33, но не в пользу справедливости.",False,False,False,False
+13,1742,no_memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, что слишком много; C получает 1, недостаточно; голосую против.",False,False,False,False
+13,1742,no_memory,2,C,B,False,reject,False,40,0.4,"{'A': 0, 'B': 60, 'C': 40}",False,"Блок C получает 40, что больше 33, голосую против.",True,False,False,False
+13,1742,no_memory,4,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+13,1742,no_memory,5,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что превышает 33, я не голосую.",False,False,False,False
+13,1742,no_memory,7,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+13,1742,no_memory,8,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что превышает 33, но я не голосую за 40/60, так как не близко к 33/33/34.",True,False,False,False
+14,1743,no_memory,1,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"A предлагает 90, что слишком много для C и B. Несправедливо.",False,False,False,False
+14,1743,no_memory,2,C,B,False,accept,False,59,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",False,"C предлагает 59, что превышает 33, я голосую за.",False,False,False,False
+14,1743,no_memory,4,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что больше 0, но не превышает 33. Голосование за несправедливое распределение не оправдано.",False,False,False,False
+14,1743,no_memory,5,C,B,False,reject,False,40,0.4,"{'A': 0, 'B': 60, 'C': 40}",False,"C предлагает 33/33/34, но текущее предложение несправедливо.",False,False,False,False
+14,1743,no_memory,7,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+14,1743,no_memory,8,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что больше 33, я не голосую.",False,False,False,False
+15,1744,no_memory,1,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"A получает слишком много, C и B недостаточно.",False,False,False,False
+15,1744,no_memory,2,C,B,False,reject,False,40,0.4,"{'A': 0, 'B': 60, 'C': 40}",False,B и C получают слишком много; 33/33/34 справедливее.,False,False,True,True
+15,1744,no_memory,4,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+15,1744,no_memory,5,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что превышает его справедливую долю, но не хватает для одобрения.",False,False,False,False
+15,1744,no_memory,7,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что больше 0, но не превышает 33. Голосую против из-за несправедливости.",False,False,False,False
+15,1744,no_memory,8,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что превышает 33, но не в пользу A или B. Голосую против.",False,False,False,False
+16,1745,no_memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, что слишком много; C получает 1, недостаточно; голосую против.",False,False,False,False
+16,1745,no_memory,2,C,B,False,reject,False,59,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",False,"C предлагает 59, что превышает 33, я голосую против.",False,False,False,False
+16,1745,no_memory,4,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+16,1745,no_memory,5,C,B,False,reject,False,40,0.4,"{'A': 0, 'B': 60, 'C': 40}",False,"C предлагает 33/33/34, я голосую за 33/33/34.",False,False,False,False
+16,1745,no_memory,7,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+16,1745,no_memory,8,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что больше 33, но не в пределах справедливого распределения.",False,False,False,False
+17,1746,no_memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, что слишком много; C получает 1, недостаточно; голосую против.",False,False,False,False
+17,1746,no_memory,2,C,B,False,accept,False,59,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",False,"C предлагает 59, что превышает 33, я голосую за.",False,False,False,False
+17,1746,no_memory,4,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+17,1746,no_memory,5,C,B,False,reject,False,40,0.4,"{'A': 0, 'B': 60, 'C': 40}",False,"C предлагает 33/33/34, я голосую за 33/33/34.",False,False,False,False
+17,1746,no_memory,7,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+17,1746,no_memory,8,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что больше 33, но не в пределах справедливого распределения.",False,False,False,False
+18,1747,no_memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, что слишком много; C получает 1, недостаточно для поддержки.",False,False,False,False
+18,1747,no_memory,2,C,B,False,reject,False,40,0.4,"{'A': 0, 'B': 60, 'C': 40}",False,"Блок C получает 40, что больше 33, голосую против.",True,False,False,False
+18,1747,no_memory,4,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, несправедливо, голосую против.",False,False,False,False
+18,1747,no_memory,5,C,B,False,reject,False,40,0.4,"{'A': 0, 'B': 60, 'C': 40}",False,"Предложение несправедливо, C получает слишком мало.",False,False,False,False
+18,1747,no_memory,7,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что больше 0, но 90 слишком много для A. Голосование за несправедливое распределение не оправдано.",False,False,False,False
+18,1747,no_memory,8,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что больше 33, несправедливо, голосую против.",False,False,False,False
+19,1748,no_memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, что слишком много; C получает 1, недостаточно; несправедливо.",False,False,False,False
+19,1748,no_memory,2,C,B,False,reject,False,50,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",False,"Баланс несправедлив; C получает 50, A — 0. Не поддержу.",False,False,False,False
+19,1748,no_memory,4,C,A,False,reject,False,10,0.4666666666666667,"{'A': 80, 'B': 10, 'C': 10}",True,"C получает 10, что меньше 33, голосую против.",False,False,False,False
+19,1748,no_memory,5,C,B,False,reject,False,59,0.3933333333333333,"{'A': 0, 'B': 41, 'C': 59}",False,"C предлагает 59, что превышает его справедливую долю. Голосую против.",False,False,False,False
+19,1748,no_memory,7,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"C получает 5, что меньше 33, голосую против.",False,False,False,False
+19,1748,no_memory,8,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"C предлагает 60, что больше 33, голосую против.",False,False,False,False
+0,1729,memory,2,A,B,False,reject,False,0,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",True,"B и C получают по 50, что несправедливо для меня.",False,False,True,True
+0,1729,memory,3,A,C,False,accept,False,34,0.006666666666666667,"{'A': 34, 'B': 33, 'C': 33}",False,"Доля C — 33, не превышает 40, голосую за.",True,False,False,False
+0,1729,memory,6,A,C,False,reject,False,34,0.006666666666666667,"{'A': 34, 'B': 33, 'C': 33}",False,"Доля B — 33 < 40, отвергаю.",True,True,True,True
+1,1730,memory,2,A,B,False,accept,False,0,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",True,"B и C получают по 50, что больше 40, я голосую за.",True,True,True,True
+1,1730,memory,3,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"B получает 33 < 40, отвергаю.",True,True,True,True
+1,1730,memory,5,A,B,False,reject,False,40,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"B и C получают менее 40, несправедливо.",True,True,True,True
+1,1730,memory,6,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"B и C получают меньше 40, распределение несправедливо.",True,True,True,True
+2,1731,memory,2,A,B,False,reject,False,10,0.26666666666666666,"{'A': 10, 'B': 40, 'C': 50}",True,"Доля B — 40, C — 50, A — 10. Сделка несправедлива для B и C.",True,False,True,True
+2,1731,memory,3,A,C,False,reject,False,34,0.006666666666666667,"{'A': 34, 'B': 33, 'C': 33}",False,"Доля B — 33, меньше 40, не согласен.",True,True,True,True
+2,1731,memory,5,A,B,False,accept,False,50,0.26666666666666666,"{'A': 50, 'B': 40, 'C': 10}",False,"B получает 40, C — 10, A — 50. Удовлетворяет критериям.",True,False,True,True
+2,1731,memory,6,A,C,False,reject,False,34,0.006666666666666667,"{'A': 34, 'B': 33, 'C': 33}",False,"Доля B — 33 < 40, не согласен.",True,True,True,True
+2,1731,memory,8,A,B,False,reject,False,51,0.28,"{'A': 51, 'B': 40, 'C': 9}",False,"B получает 40, как минимум, C — 9, несправедливо для C.",True,False,True,True
+3,1732,memory,2,A,B,False,reject,False,40,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"B и C получают мало, A предлагает 40, что больше, чем у B и C в прошлом.",True,False,True,True
+3,1732,memory,3,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Доля C — 34, больше 33, согласен.",False,False,False,False
+3,1732,memory,5,A,B,False,reject,False,60,0.4,"{'A': 60, 'B': 40, 'C': 0}",False,"Доля C равна 0, меньше 40, не согласен.",True,True,False,True
+3,1732,memory,6,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Доля C — 34, превышает 33, согласен.",False,False,False,False
+4,1733,memory,2,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"B и C получают меньше 40, не стоит голосовать за.",True,True,True,True
+4,1733,memory,3,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Доли B и C слишком малы, не стоит голосовать за.",False,False,True,True
+4,1733,memory,5,A,B,False,reject,False,50,0.26666666666666666,"{'A': 50, 'B': 40, 'C': 10}",False,"Доли B и C слишком малы, не стоит голосовать за.",False,False,True,True
+4,1733,memory,6,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Доли B и C меньше 40, голосую не за.",True,True,True,True
+4,1733,memory,8,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Все долям меньше 40, голосую не за.",True,True,False,True
+5,1734,memory,2,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Доля B (40) и C (60) слишком неравномерны. C получает 60 — слишком много, B — недостаточно.",True,False,True,True
+5,1734,memory,3,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Доля C слишком высока, B — недостаточно. Справедливость требует перераспределения.",False,False,True,True
+5,1734,memory,5,A,B,False,reject,False,60,0.4,"{'A': 60, 'B': 40, 'C': 0}",False,"B и C получают меньше 40, не согласен.",True,True,True,True
+5,1734,memory,6,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Доля C слишком высока, B недостаточна. Справедливость требует перераспределения.",False,False,False,False
+5,1734,memory,8,A,B,False,accept,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"Все предыдущие предложения неудовлетворяют критериям поддержки. В текущем распределении B и C получают больше 40, что делает его приемлемым.",True,True,True,True
+6,1735,memory,2,A,B,False,accept,False,0,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",True,"Доля B равна 50, что больше 40. Голосую за.",True,True,True,True
+7,1736,memory,2,A,B,False,accept,False,40,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"B получает 40, что больше, чем у меня в предыдущем, я согласен.",True,False,True,True
+7,1736,memory,3,A,C,False,accept,False,34,0.006666666666666667,"{'A': 34, 'B': 33, 'C': 33}",False,"C получает 33, что больше 20, согласен.",False,False,False,False
+7,1736,memory,6,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"C получает 34, что больше 33, согласен.",False,False,False,False
+7,1736,memory,8,A,B,False,accept,False,0,0.6666666666666666,"{'A': 0, 'B': 100, 'C': 0}",True,"Вот 100 единиц, C получает 1, B — 0, A — 99.",False,False,True,True
+8,1737,memory,2,A,B,False,accept,False,0,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",True,"B и C получают по 50, что больше 40, я согласен.",True,True,True,True
+9,1738,memory,2,A,B,False,accept,False,0,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",True,"B и C получают по 50, что больше 40. Голосую за.",True,True,True,True
+9,1738,memory,3,A,C,False,accept,False,34,0.006666666666666667,"{'A': 34, 'B': 33, 'C': 33}",False,"B и C получают 50, что превышает 40. Голосую за.",True,False,True,True
+9,1738,memory,5,A,B,False,accept,False,40,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"B получает 40, что больше 40, согласен.",True,True,True,True
+10,1739,memory,2,A,B,False,reject,False,40,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"B и C получают мало, не согласен.",False,False,True,True
+10,1739,memory,3,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"C получает 34, достаточно, голосую за.",False,False,False,False
+10,1739,memory,5,A,B,False,reject,False,40,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"Доля C — 20, меньше 33, не согласен.",False,False,False,False
+10,1739,memory,6,A,C,False,reject,False,34,0.006666666666666667,"{'A': 34, 'B': 33, 'C': 33}",False,"Доля B — 33, меньше 40, не согласен.",True,True,True,True
+10,1739,memory,8,A,B,False,accept,False,40,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"Все получают не менее 20, C получает 20, достаточно.",False,False,False,False
+11,1740,memory,2,A,B,False,accept,False,0,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",True,"B и C получают по 50, что больше 40, я согласен.",True,True,True,True
+12,1741,memory,2,A,B,False,accept,False,40,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"B и C не согласны; A получает 40, что достаточно для поддержки.",True,False,False,False
+12,1741,memory,3,A,C,False,accept,False,34,0.006666666666666667,"{'A': 34, 'B': 33, 'C': 33}",False,"Доля C равна 33, что достаточно; я голосую за.",False,False,False,False
+12,1741,memory,5,A,B,False,reject,False,60,0.4,"{'A': 60, 'B': 40, 'C': 0}",False,"Доля C равна 0, меньше 33, не согласен.",False,False,False,False
+12,1741,memory,6,A,C,False,accept,False,34,0.006666666666666667,"{'A': 34, 'B': 33, 'C': 33}",False,"Доля C равна 33, достаточно для поддержки.",False,False,False,False
+13,1742,memory,2,A,B,False,reject,False,40,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"B и C получают мало, A предлагает 40, что не оправдано.",True,False,True,True
+13,1742,memory,3,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"C получает 34, больше 33, согласен.",False,False,False,False
+13,1742,memory,5,A,B,False,reject,False,50,0.26666666666666666,"{'A': 50, 'B': 40, 'C': 10}",False,"C получает 10, меньше 40, не согласен.",True,True,False,True
+13,1742,memory,6,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"C получает 34, больше 33, A согласен.",False,False,False,False
+14,1743,memory,2,A,B,False,reject,False,40,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"B получает 40, C — 20. Доли неоправданно неравномерны. Противоречие с справедливостью.",True,False,True,True
+14,1743,memory,3,A,C,False,reject,False,34,0.006666666666666667,"{'A': 34, 'B': 33, 'C': 33}",False,"Доля C — 33, меньше 40, не согласен.",True,True,False,True
+14,1743,memory,5,A,B,False,reject,False,40,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"Доля C — 20, меньше 40, не согласен.",True,True,False,True
+14,1743,memory,6,A,C,False,reject,False,34,0.006666666666666667,"{'A': 34, 'B': 33, 'C': 33}",False,"Доля C — 33, меньше 40, не согласен.",True,True,False,True
+15,1744,memory,2,A,B,False,reject,False,0,0.4,"{'A': 0, 'B': 40, 'C': 60}",True,"B и C получают мало, не голосую за.",False,False,True,True
+15,1744,memory,3,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Доля A и B слишком мала, C получает слишком много.",False,False,False,False
+15,1744,memory,5,A,B,False,reject,False,50,0.26666666666666666,"{'A': 50, 'B': 40, 'C': 10}",False,"Доля C равна 10, меньше 40, не голосую.",True,True,False,True
+15,1744,memory,6,A,C,False,reject,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Доли A и B слишком малы, C получает слишком много.",False,False,False,False
+16,1745,memory,2,A,B,False,accept,False,0,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",True,"B и C получают по 50, что больше 40, я голосую за.",True,True,True,True
+16,1745,memory,3,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"B и C получают 50, что больше 40, я голосую за.",True,True,True,True
+17,1746,memory,2,A,B,False,accept,False,0,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",True,"B и C получают по 50, что больше 40, я согласен.",True,True,True,True
+17,1746,memory,3,A,C,False,accept,False,34,0.006666666666666667,"{'A': 34, 'B': 33, 'C': 33}",False,"B и C получают 50, что превышает порог 40, я согласен.",True,True,True,True
+17,1746,memory,5,A,B,False,reject,False,40,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"B получает 40, не меньше 40, не согласен.",True,True,True,True
+17,1746,memory,6,A,C,False,reject,False,34,0.006666666666666667,"{'A': 34, 'B': 33, 'C': 33}",False,"Доля B — 33 < 40, не согласен.",True,True,True,True
+18,1747,memory,2,A,B,False,accept,False,0,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",True,"B и C получают по 50, что больше, чем в прошлом. Голосую за.",False,False,True,True
+18,1747,memory,3,A,C,False,reject,False,34,0.006666666666666667,"{'A': 34, 'B': 33, 'C': 33}",False,"B и C получают 50, что несправедливо, голосую против.",False,False,True,True
+18,1747,memory,5,A,B,False,reject,False,51,0.34,"{'A': 51, 'B': 49, 'C': 0}",False,"B получает 49 > 40, C получает 0 < 40, несправедливо.",True,True,True,True
+18,1747,memory,6,A,C,False,reject,False,34,0.006666666666666667,"{'A': 34, 'B': 33, 'C': 33}",False,"B получает 33 < 40, отвергаю.",True,True,True,True
+19,1748,memory,2,A,B,False,reject,False,40,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"B получает 40, C — 20, я предлагаю 40, не голосую за.",True,False,True,True
+19,1748,memory,3,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Доля C — 34, больше 33, поддерживаю.",False,False,False,False
+19,1748,memory,5,A,B,False,reject,False,60,0.4,"{'A': 60, 'B': 40, 'C': 0}",False,"Доля C — 0, меньше 40, несправедливо, отклоняю.",True,True,False,True
+19,1748,memory,6,A,C,False,accept,False,33,0.006666666666666667,"{'A': 33, 'B': 33, 'C': 34}",False,"Доля C — 34, больше 33, поддерживаю.",False,False,False,False
+0,1729,memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, C — 1, B — 0. Распределение несправедливо, голосовать не за.",False,False,True,True
+0,1729,memory,2,C,B,False,accept,False,50,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",False,"B и C получают по 50, что справедливо. Доля C — 50, больше 33, голосую за.",False,False,True,True
+0,1729,memory,4,C,A,False,accept,False,0,0.34,"{'A': 51, 'B': 49, 'C': 0}",False,"C получает 33, что не превышает 40, распределение справедливо.",True,False,False,False
+0,1729,memory,7,C,A,False,accept,False,0,0.34,"{'A': 51, 'B': 49, 'C': 0}",False,"C получает 33, что не превышает 40, распределение справедливо.",True,False,False,False
+1,1730,memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, что слишком много; C получает 1, недостаточно; несправедливое распределение.",False,False,False,False
+1,1730,memory,2,C,B,False,reject,False,50,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",False,"B и C получают по 50, что справедливо. Доля A равна 0, что несправедливо.",False,False,True,True
+1,1730,memory,4,C,A,False,reject,False,49,0.34,"{'A': 51, 'B': 0, 'C': 49}",False,"B и C получают меньше 40, распределение несправедливо.",True,True,True,True
+1,1730,memory,5,C,B,False,reject,False,20,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"C получает 20 < 33, несправедливо, отвергаю.",False,False,False,False
+1,1730,memory,7,C,A,False,reject,False,50,0.3333333333333333,"{'A': 50, 'B': 0, 'C': 50}",False,"B и C получают по 33 < 40, несправедливо.",True,True,True,True
+2,1731,memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, C — 1, B — 0. Распределение несправедливо, голосовать не за.",False,False,True,True
+2,1731,memory,2,C,B,False,reject,False,50,0.26666666666666666,"{'A': 10, 'B': 40, 'C': 50}",False,"Доля C слишком высока, несправедливо. Голосовать не за.",False,False,False,False
+2,1731,memory,4,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"B получает 33 < 40, не согласен; C получает 33, несправедливо.",True,True,True,True
+2,1731,memory,5,C,B,False,reject,False,10,0.26666666666666666,"{'A': 50, 'B': 40, 'C': 10}",False,"C получает 33, что меньше 40, несправедливо.",True,True,False,True
+2,1731,memory,7,C,A,False,reject,False,9,0.28,"{'A': 51, 'B': 40, 'C': 9}",False,"B получает 40, C — 9, A — 51. Несправедливо для B и C.",True,False,True,True
+2,1731,memory,8,C,B,False,reject,False,9,0.28,"{'A': 51, 'B': 40, 'C': 9}",False,"B получает 40, что соответствует минимуму, C — 9, несправедливо.",True,False,True,True
+3,1732,memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, C — 1, B — 0. Распределение несправедливо, голосовать не за.",False,False,True,True
+3,1732,memory,2,C,B,False,reject,False,20,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"C получает 20, меньше 33, несправедливо, голосую против.",False,False,False,False
+3,1732,memory,4,C,A,False,accept,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,C предлагает 33/33/34 — справедливо и близко к равномерному распределению.,False,False,False,False
+3,1732,memory,5,C,B,False,accept,False,0,0.4,"{'A': 60, 'B': 40, 'C': 0}",False,C предлагает 33/33/34 — справедливо и близко к равномерному распределению.,False,False,False,False
+3,1732,memory,7,C,A,False,accept,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,C предлагает 33/33/34 — справедливо и близко к равномерному распределению.,False,False,False,False
+4,1733,memory,1,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"A предлагает слишком много, C и B недостаточно. Голосовать не за.",False,False,False,False
+4,1733,memory,2,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"B и C получают меньше 40, не стоит голосовать за.",True,True,True,True
+4,1733,memory,4,C,A,False,reject,False,3,0.62,"{'A': 95, 'B': 2, 'C': 3}",True,C предлагает 33/33/34 — справедливо и близко к равномерному распределению.,False,False,False,False
+4,1733,memory,5,C,B,False,accept,False,10,0.26666666666666666,"{'A': 50, 'B': 40, 'C': 10}",False,C предлагает 33/33/34 — справедливо и близко к равномерному распределению.,False,False,False,False
+4,1733,memory,7,C,A,False,accept,False,1,0.6466666666666666,"{'A': 98, 'B': 1, 'C': 1}",True,C предлагает 33/33/34 — справедливо и близко к равновесию.,False,False,False,False
+4,1733,memory,8,C,B,False,accept,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,C предлагает 33/33/34 — справедливо и близко к равновесию.,False,False,False,False
+5,1734,memory,1,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"A предлагает 90, что слишком много для C и B. Справедливое распределение 33/33/34 лучше.",False,False,False,False
+5,1734,memory,2,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"B и C получают меньше 40, несправедливо. Справедливое распределение 33/33/34.",True,True,True,True
+5,1734,memory,4,C,A,False,reject,False,5,0.5333333333333333,"{'A': 85, 'B': 10, 'C': 5}",True,"C предлагает 33/33/34 — справедливо, близко к равенству, и я не согласен.",False,False,False,False
+5,1734,memory,5,C,B,False,accept,False,0,0.4,"{'A': 60, 'B': 40, 'C': 0}",False,C предлагает 33/33/34 — справедливо и близко к равенству.,False,False,False,False
+5,1734,memory,7,C,A,False,accept,False,3,0.62,"{'A': 95, 'B': 2, 'C': 3}",True,C предлагает 33/33/34 — справедливо и близко к равенству.,False,False,False,False
+5,1734,memory,8,C,B,False,accept,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"В предложении C (33/33/34) справедливое распределение, близкое к равенству.",False,False,False,False
+6,1735,memory,1,C,A,False,reject,False,0,0.66,"{'A': 99, 'B': 1, 'C': 0}",True,"A предлагает 99, B — 1, C — 0. C получает 0, не выгодно. Голосовать не за.",False,False,True,True
+6,1735,memory,2,C,B,False,accept,False,50,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",False,"B и C получают по 50, что больше 33. Голосую за.",False,False,True,True
+7,1736,memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, C — 1, B — 0. Справедливое распределение 33/33/34 не достигнуто.",False,False,True,True
+7,1736,memory,2,C,B,False,reject,False,20,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"C получает 20, меньше 33. Не справедливо. Голосовать за только в случае 33/33/34.",False,False,False,False
+7,1736,memory,4,C,A,False,reject,False,10,0.26666666666666666,"{'A': 50, 'B': 40, 'C': 10}",False,"C получает 33, меньше 40, не согласен.",True,True,False,True
+7,1736,memory,7,C,A,False,accept,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"C получает 34, что больше 33, A и B согласны по справедливости.",False,False,False,False
+7,1736,memory,8,C,B,False,accept,False,0,0.6666666666666666,"{'A': 0, 'B': 100, 'C': 0}",True,"C получает 34, что больше 33, распределение справедливо.",False,False,False,False
+8,1737,memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, C — 1, B — 0. Распределение несправедливо, голосовать не за.",False,False,True,True
+8,1737,memory,2,C,B,False,accept,False,50,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",False,"B и C получают по 50, что справедливо. Голосую за.",False,False,True,True
+9,1738,memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, C — 1, B — 0. Несправедливо. Голосовать не за.",False,False,True,True
+9,1738,memory,2,C,B,False,reject,False,50,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",False,"B и C получают по 50, что несправедливо. Нужно ближе к 33/33/34.",False,False,True,True
+9,1738,memory,4,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,C предлагает 33/33/34 — справедливо и близко к равномерному распределению.,False,False,False,False
+9,1738,memory,5,C,B,False,accept,False,20,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,C предлагает 33/33/34 — справедливо и близко к равномерному.,False,False,False,False
+10,1739,memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, C — 1, B — 0. Распределение несправедливо, голосовать не за.",False,False,True,True
+10,1739,memory,2,C,B,False,reject,False,20,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"C получает 20, меньше 33, несправедливо, голосую против.",False,False,False,False
+10,1739,memory,4,C,A,False,accept,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,C предлагает 33/33/34 — справедливо и близко к равномерному распределению.,False,False,False,False
+10,1739,memory,5,C,B,False,reject,False,20,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"C получает 20, меньше 33, несправедливо.",False,False,False,False
+10,1739,memory,7,C,A,False,reject,False,20,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"C получает 33, меньше 34, несправедливо, голосую против.",False,False,False,False
+10,1739,memory,8,C,B,False,reject,False,20,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"C получает 20, меньше 33, несправедливо.",False,False,False,False
+11,1740,memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, C — 1, B — 0. Распределение несправедливо, голосовать не за.",False,False,True,True
+11,1740,memory,2,C,B,False,accept,False,50,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",False,"B и C получают по 50, что справедливо. Голосую за.",False,False,True,True
+12,1741,memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, что слишком много; C получает 1, недостаточно для поддержки.",False,False,False,False
+12,1741,memory,2,C,B,False,reject,False,20,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"C получает 20, меньше 33, не согласен.",False,False,False,False
+12,1741,memory,4,C,A,False,accept,False,50,0.3333333333333333,"{'A': 50, 'B': 0, 'C': 50}",False,"C получает 33, что достаточно; распределение справедливо и близко к 33/33/34.",False,False,False,False
+12,1741,memory,5,C,B,False,accept,False,0,0.4,"{'A': 60, 'B': 40, 'C': 0}",False,"C получает 33, что достаточно; распределение справедливо и близко к 33/33/34.",False,False,False,False
+12,1741,memory,7,C,A,False,accept,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"C получает 33, достаточно для поддержки; распределение справедливо и близко к 33/33/34.",False,False,False,False
+13,1742,memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, C — 1, B — 0. Распределение несправедливо, голосовать не за.",False,False,True,True
+13,1742,memory,2,C,B,False,reject,False,20,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"C получает 20, меньше 33, несправедливо, голосовать не за.",False,False,False,False
+13,1742,memory,4,C,A,False,accept,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,C предлагает 33/33/34 — справедливо и близко к равномерному распределению.,False,False,False,False
+13,1742,memory,5,C,B,False,accept,False,10,0.26666666666666666,"{'A': 50, 'B': 40, 'C': 10}",False,C предлагает 33/33/34 — справедливо и близко к равномерному распределению.,False,False,False,False
+13,1742,memory,7,C,A,False,accept,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,C предлагает 33/33/34 — справедливо и близко к равномерному распределению.,False,False,False,False
+14,1743,memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, C — 1, B — 0. Справедливое распределение 33/33/34 не достигнуто.",False,False,True,True
+14,1743,memory,2,C,B,False,reject,False,20,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"C получает 20, меньше 33. Распределение несправедливо.",False,False,False,False
+14,1743,memory,4,C,A,False,accept,False,0,0.34,"{'A': 51, 'B': 49, 'C': 0}",False,"C предлагает 33/33/34 — справедливое распределение, соответствует истории.",False,False,False,False
+14,1743,memory,5,C,B,False,reject,False,20,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"C получает 20, меньше 33. Распределение несправедливо.",False,False,False,False
+14,1743,memory,7,C,A,False,reject,False,0,0.34,"{'A': 51, 'B': 49, 'C': 0}",False,"C получает 33, меньше 40, не согласен.",True,True,False,True
+15,1744,memory,1,C,A,False,reject,False,5,0.5666666666666667,"{'A': 90, 'B': 5, 'C': 5}",True,"A получает слишком много, C и B недостаточно.",False,False,False,False
+15,1744,memory,2,C,B,False,reject,False,60,0.4,"{'A': 0, 'B': 40, 'C': 60}",False,"B и C получают меньше 40, не стоит голосовать за.",True,True,True,True
+15,1744,memory,4,C,A,False,accept,False,5,0.5333333333333333,"{'A': 85, 'B': 10, 'C': 5}",True,"C предлагает 33/33/34, близко к справедливому распределению.",False,False,False,False
+15,1744,memory,5,C,B,False,accept,False,10,0.26666666666666666,"{'A': 50, 'B': 40, 'C': 10}",False,"C предлагает 33/33/34, близко к справедливому распределению.",False,False,False,False
+15,1744,memory,7,C,A,False,reject,False,3,0.62,"{'A': 95, 'B': 2, 'C': 3}",True,"Доли A и B слишком малы, C получает слишком много.",False,False,False,False
+16,1745,memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, C — 1, B — 0. Несправедливо. Голосовать не за.",False,False,True,True
+16,1745,memory,2,C,B,False,reject,False,50,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",False,"B и C получают по 50, что несправедливо. Справедливое распределение 33/33/34.",False,False,True,True
+16,1745,memory,4,C,A,False,accept,False,0,0.34,"{'A': 51, 'B': 49, 'C': 0}",False,"C предлагает 33/33/34 — справедливо, близко к равенству.",False,False,False,False
+17,1746,memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, C — 1, B — 0. Распределение несправедливо, голосовать не за.",False,False,True,True
+17,1746,memory,2,C,B,False,reject,False,50,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",False,"B и C получают по 50, что превышает 33, распределение несправедливо.",False,False,True,True
+17,1746,memory,4,C,A,False,reject,False,0,0.34,"{'A': 51, 'B': 49, 'C': 0}",False,"B получает 33 < 40, не согласен; C получает 33, близко к 33, голосую за.",True,True,True,True
+17,1746,memory,5,C,B,False,reject,False,20,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"C получает 20 < 33, несправедливо, голосую за только если близко к 33/33/34.",False,False,False,False
+17,1746,memory,7,C,A,False,reject,False,0,0.34,"{'A': 51, 'B': 49, 'C': 0}",False,"Доля B равна 33, меньше 40, не согласен.",True,True,True,True
+18,1747,memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, C — 1, B — 0. Несправедливо, голосую против.",False,False,True,True
+18,1747,memory,2,C,B,False,reject,False,50,0.3333333333333333,"{'A': 0, 'B': 50, 'C': 50}",False,"B и C получают по 50, что несправедливо. Голосую против.",False,False,True,True
+18,1747,memory,4,C,A,False,accept,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,C предлагает 33/33/34 — справедливо и близко к равномерному распределению.,False,False,False,False
+18,1747,memory,5,C,B,False,accept,False,0,0.34,"{'A': 51, 'B': 49, 'C': 0}",False,C предлагает 33/33/34 — справедливо и близко к равномерному распределению.,False,False,False,False
+18,1747,memory,7,C,A,False,accept,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"В предложении C: 34/33/33 — справедливо, близко к 33/33/34, голосую за.",False,False,False,False
+19,1748,memory,1,C,A,False,reject,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"A получает 99, C — 1, B — 0. Распределение несправедливо, голосовать не за.",False,False,True,True
+19,1748,memory,2,C,B,False,reject,False,20,0.13333333333333333,"{'A': 40, 'B': 40, 'C': 20}",False,"C получает 20, меньше 33, несправедливо, отклоняю.",False,False,False,False
+19,1748,memory,4,C,A,False,accept,False,50,0.3333333333333333,"{'A': 50, 'B': 0, 'C': 50}",False,"C предлагает 33/33/34 — справедливо, я поддерживаю.",False,False,False,False
+19,1748,memory,5,C,B,False,accept,False,0,0.4,"{'A': 60, 'B': 40, 'C': 0}",False,"C предлагает 33/33/34 — справедливо, я поддерживаю.",False,False,False,False
+19,1748,memory,7,C,A,False,accept,False,1,0.66,"{'A': 99, 'B': 0, 'C': 1}",True,"C предлагает 33/33/34 — справедливо, я поддерживаю.",False,False,False,False
